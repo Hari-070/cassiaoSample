@@ -7,6 +7,29 @@ const Franchise = () => {
   const [location,setLocation]=useState('')
   const [email,setEmail]=useState('')
   
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setName(''); setEmail(''); setNumber(''); setLocation('');
+    console.log(name,number,location,email)
+    try {
+      const response = await axios.post('https://script.google.com/macros/s/AKfycby0juNrq1bzCWs4AXiyiIbmTWstRzygVin8WzF-4iPJcYqcO-gdP9-iHEnu4ek8oO2l/exec', {
+        name,number,location,email
+      },
+      {headers: {
+        "Content-Type": "text/plain;charset=utf-8",}
+      },
+);
+
+      if (response.data.result === 'success') {
+        alert(`Data submitted: Name - ${response.data.name}, Age - ${response.data.number}`);
+      } else {
+        alert('Failed to submit data');
+      }
+    } catch (error) {
+      console.error('Error submitting data:', error);
+      alert('An error occurred while submitting data.');
+    }
+  };
 
   return (
     <div className='franc-cont'>
@@ -28,7 +51,7 @@ const Franchise = () => {
             </div>
           </div>
         
-        <button className='franc-submit'>Submit</button>
+        <button className='franc-submit' onClick={handleSubmit}>Submit</button>
         </form>
       </div>
     </div>
