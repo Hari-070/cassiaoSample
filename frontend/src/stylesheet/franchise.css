@@ -1,0 +1,49 @@
+.franc-cont{
+    width: 100%;
+    height: 80vh;
+    display: flex;justify-content: center;align-items: center;
+    /* border: 1px solid white; */
+    background-color: rgb(17, 17, 17);
+}
+.franc-form{
+    background-color: black;
+    height: 60vh;
+    width: 50%;
+    position: relative;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 50px;
+    /* border: 1px solid white; */
+}
+.franc-form form{
+    height: 35vh;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.franc-form label{
+    font-size: 20px;
+}
+.franc-form input{
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 350px;
+    height: 20px;
+    padding: 7px 10px;
+    border: 1px solid white;
+}
+.franc-submit{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 32, 32);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+}

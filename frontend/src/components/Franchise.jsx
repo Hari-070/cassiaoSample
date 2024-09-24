@@ -1,0 +1,38 @@
+import React, { useState } from 'react'
+import '../stylesheet/franchise.css'
+
+const Franchise = () => {
+  const [name,setName]=useState('')
+  const [number,setNumber]=useState()
+  const [location,setLocation]=useState('')
+  const [email,setEmail]=useState('')
+  
+
+  return (
+    <div className='franc-cont'>
+      <div className='franc-form'>
+        <h1>Franchise <span style={{color:"red"}}>Enquiry</span></h1>
+        <form>
+          <div style={{display:"flex"}}>
+            <div style={{display:"flex",flexDirection:"column",justifyContent:"space-around",alignItems:"flex-start",gap:"20px"}}>
+              <label>Name :</label>
+              <label>Contact :</label>
+              <label>Email :</label>
+              <label>Location :</label>
+            </div>
+            <div style={{display:"flex",flexDirection:"column",justifyContent:"space-around",alignItems:"flex-start",gap:"20px"}}>
+              <input type='text' value={name} placeholder='Name' onChange={(e)=>setName(e.target.value)}/>
+              <input type='number' value={number} placeholder='Number' onChange={(e)=>setNumber(e.target.value)}/>
+              <input type='email' value={email} placeholder='Email Id' onChange={(e)=>setEmail(e.target.value)}/>
+              <input type='text' value={location} placeholder='Location' onChange={(e)=>setLocation(e.target.value)}/>
+            </div>
+          </div>
+        
+        <button className='franc-submit'>Submit</button>
+        </form>
+      </div>
+    </div>
+  )
+}
+
+export default Franchise
