@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../stylesheet/franchise.css'
+import axios from 'axios'
 
 const Franchise = () => {
   const [name,setName]=useState('')
@@ -21,7 +22,7 @@ const Franchise = () => {
 );
 
       if (response.data.result === 'success') {
-        alert(`Data submitted: Name - ${response.data.name}, Age - ${response.data.number}`);
+        alert(`Data submitted: Name - ${response.data.name}, Number - ${response.data.number}`);
       } else {
         alert('Failed to submit data');
       }
