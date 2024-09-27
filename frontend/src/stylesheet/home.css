@@ -3,7 +3,7 @@
     width: 100%;
     height: 100vh;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.329)),url('https://cdn.pixabay.com/photo/2024/04/08/19/54/coffee-8684315_1280.jpg'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.329)),url('D:/Tea/frontend/src/assets/hero.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.329)),url('../assets/hero.png');
     background-position: center;
     background-size: cover;
     display: flex;
