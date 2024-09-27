@@ -10,6 +10,9 @@ const Franchise = () => {
   
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if(name=='' || email=='' || number=='' || location==''){
+      alert("Fill all the fields!")
+    }
     setName(''); setEmail(''); setNumber(''); setLocation('');
     console.log(name,number,location,email)
     try {
@@ -45,10 +48,10 @@ const Franchise = () => {
               <label>Location :</label>
             </div>
             <div style={{display:"flex",flexDirection:"column",justifyContent:"space-around",alignItems:"flex-start",gap:"20px"}}>
-              <input type='text' value={name} placeholder='Name' onChange={(e)=>setName(e.target.value)}/>
-              <input type='number' value={number} placeholder='Number' onChange={(e)=>setNumber(e.target.value)}/>
-              <input type='email' value={email} placeholder='Email Id' onChange={(e)=>setEmail(e.target.value)}/>
-              <input type='text' value={location} placeholder='Location' onChange={(e)=>setLocation(e.target.value)}/>
+              <input type='text' value={name} placeholder='Name' onChange={(e)=>setName(e.target.value)} required/>
+              <input type='number' value={number} placeholder='Number' onChange={(e)=>setNumber(e.target.value)} required/>
+              <input type='email' value={email} placeholder='Email Id' onChange={(e)=>setEmail(e.target.value)} required/>
+              <input type='text' value={location} placeholder='Location' onChange={(e)=>setLocation(e.target.value)} required/>
             </div>
           </div>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../stylesheet/home.css'
-import Button from '../components/Button'
+
 import Card from '../components/Card'
 import teaPic from '../assets/teaPic.jpg'
 import black1 from '../assets/black1.jpeg'
@@ -17,20 +17,20 @@ const Home = () => {
   return (
     <>
         {/* <div className='home'> */}
-            {/* <div className='home-hero'>
-              <div className='home-hero-boxf'> */}
+            <div className='home-hero'>
+              <div className='home-hero-boxf'>
                 {/* <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span style={{color:'red',fontFamily:"Italianno",fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
-                {/* <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span style={{color:'red',fontFamily: 'Times New Roman',fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
+                <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span className='hero-span' style={{color:'red',fontFamily: 'Times New Roman',position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
               </div>
                 <div className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
                     <h1 style={{fontSize:"50px"}}>₹ 4,00,000</h1>
-                    <Button />
+                    <button className='hero-button'>Enquire</button>
                 </div>
-            </div> */}
-            <div className='home-hero'>
-
             </div>
+            {/* <div className='home-hero'>
+
+            </div> */}
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
               <div className='home-service'>
                 <img src={teaPic} alt='image' width="550px"/>
@@ -38,7 +38,7 @@ const Home = () => {
                   <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>
                   <p style={{fontSize:"20px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis.</p>
                 </div>
-                <p style={{position:"absolute",right:"80px",bottom:"50px",fontFamily:"smooch"}}>-Magic Cassiao</p>
+                <p style={{position:"absolute",right:"8%",bottom:"5%",fontFamily:"smooch"}}>-Magic Cassiao</p>
                 
               </div>
             </div>

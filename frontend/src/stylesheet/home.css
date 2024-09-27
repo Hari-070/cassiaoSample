@@ -28,6 +28,16 @@
 .home-hero-box button{
     width: 50%;
 }
+.hero-button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
 .home-hero-box h1{
     color: rgb(240, 178, 62);
 }
@@ -80,4 +90,36 @@
     align-items: center;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.564);
     padding: 10px 5px;
+}
+.hero-span{
+    font-size: "210px";
+    top: 100px;
+}
+@media(max-width: 400px){
+    .home-hero{
+        flex-direction: column;
+
+    }
+    .home-hero h1{
+        font-size: 100px;
+    }
+    .home-hero-box{
+        width: 80%;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.313);
+    }
+    .home-hero p{
+        font-size: 30px;
+    }
+    .hero-span{
+        top: 50px;
+    }
+    .home-service{
+        flex-direction: column;
+        padding: 50px 20px;
+        height: fit-content;
+        font-size: 20px;
+    }
+    .home-service img{
+        width: 300px;
+    }
 }
