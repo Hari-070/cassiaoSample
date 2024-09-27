@@ -17,16 +17,19 @@ const Home = () => {
   return (
     <>
         {/* <div className='home'> */}
-            <div className='home-hero'>
-              <div className='home-hero-boxf'>
+            {/* <div className='home-hero'>
+              <div className='home-hero-boxf'> */}
                 {/* <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span style={{color:'red',fontFamily:"Italianno",fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
-                <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span style={{color:'red',fontFamily: 'Times New Roman',fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
+                {/* <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span style={{color:'red',fontFamily: 'Times New Roman',fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
               </div>
                 <div className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
                     <h1 style={{fontSize:"50px"}}>₹ 4,00,000</h1>
                     <Button />
                 </div>
+            </div> */}
+            <div className='home-hero'>
+
             </div>
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
               <div className='home-service'>
