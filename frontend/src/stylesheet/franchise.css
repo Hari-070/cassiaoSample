@@ -47,3 +47,18 @@
     font-weight: 600;
     width: 150px;
 }
+
+@media(max-width:400px){
+    .franc-form{
+        width: 95%;
+    }
+    .franc-form input{
+        width: 200px;
+    }
+    .franc-form label{
+        font-size: 15px;
+    }
+    .franc-submit{
+        font-size: 12px;
+    }
+}

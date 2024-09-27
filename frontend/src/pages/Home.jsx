@@ -36,14 +36,14 @@ const Home = () => {
                 <img src={teaPic} alt='image' width="550px"/>
                 <div>
                   <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>
-                  <p style={{fontSize:"20px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis.</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis.</p>
                 </div>
-                <p style={{position:"absolute",right:"8%",bottom:"5%",fontFamily:"smooch"}}>-Magic Cassiao</p>
+                <p style={{position:"absolute",right:"8%",bottom:"3%",fontFamily:"smooch"}}>-Magic Cassiao</p>
                 
               </div>
             </div>
 
-            <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"100vh",backgroundColor:"black"}}>
+            <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     <h1>Products</h1>
