@@ -15,8 +15,8 @@ const Footer = () => {
 
         <div className='footer-address'>
           <div className='footer-logo'>
-            <img src={logo} alt='logo' width="110px"/>
-            <h1 style={{position:"relative",fontFamily:"Bonheur Royale",fontSize:"50px"}}>Magic <br/><span style={{color:'red',fontFamily:"Italianno",fontSize:"60px",position:'absolute',top:"30px",left:"20px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
+            <img src={logo} alt='logo' />
+            <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span className="casio"style={{color:'red',fontFamily:"Italianno",position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
           </div>
           <div className='footer-addr'>
             <div className='address'>

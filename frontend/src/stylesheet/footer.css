@@ -16,7 +16,15 @@
 }
 .footer-logo img{
     border-radius: 50%;
-
+    width: 110px;
+}
+.footer-logo h1{
+    font-size:50px;
+}
+.casio{
+    font-size:60px;
+    top:30px;
+    left:20px;
 }
 .footer-addr{
     display: flex;flex-direction: column;
@@ -79,4 +87,38 @@
 .social-1{
     display: flex;
     gap: 10px;
+}
+
+@media(max-width: 400px){
+    .footer-cont{
+        flex-direction: column;
+        height: 60vh;
+        gap: 40px;
+        overflow: hidden;
+    }
+    .footer-logo img{
+        width: 50px;
+    }
+    .footer-logo h1{
+        font-size:30px;
+    }
+    .casio{
+        font-size: 30px;
+        top: 20px;
+    }
+    .footer-address{
+        flex-direction: row;
+        margin-left: 10px;
+        gap: 20px;
+    }
+    .footer-nav{
+        flex-direction: row;
+        font-size: 15px;
+    }
+    .footer-about{
+        flex-direction: row;
+        font-size: 15px;
+        width: 100%;
+    }
+    
 }
