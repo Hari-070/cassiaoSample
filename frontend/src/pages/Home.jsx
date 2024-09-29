@@ -25,14 +25,14 @@ const Home = () => {
                 <div className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
                     <h1 style={{fontSize:"50px"}}>₹ 4,00,000</h1>
-                    <button className='hero-button'>Enquire</button>
+                    <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire</button>
                 </div>
             </div>
             {/* <div className='home-hero'>
 
             </div> */}
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
-              <div className='home-service'>
+              <div className='home-service' id='service'>
                 <img src={teaPic} alt='image' width="550px"/>
                 <div>
                   <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>

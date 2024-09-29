@@ -23,16 +23,16 @@ const Header = () => {
         <img src={logo} alt='logo' width="70px"/>
         <div className='header-navi'>
             <p className='hideOnMobile' onClick={()=>navigate('/')}>Home</p>
-            <p className='hideOnMobile' onClick={()=>navigate('/aboutUs')}>About Us</p>
-            <p className='hideOnMobile' onClick={()=>navigate('/contact-us')}>Contact Us</p>
+            <p className='hideOnMobile' onClick={()=>document.getElementById('service').scrollIntoView({ behavior: 'smooth' })}>About Us</p>
+            <p className='hideOnMobile' onClick={()=>document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' })}>Contact Us</p>
         </div>
 
         {side?
         <div className='mobile-navi'>
         <IoMdClose style={{fontSize:"35px"}} onClick={closeSideBar}/>
           <p onClick={()=>navigate('/')}>Home</p> 
-          <p onClick={()=>navigate('/aboutUs')}>About Us</p>
-          <p onClick={()=>navigate('/contact-us')}>Contact Us</p>
+          <p onClick={()=>{document.getElementById('service').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>About Us</p>
+          <p onClick={()=>{document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>Contact Us</p>
       </div>:<></>}
       <div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}}>
       <button className='header-call'>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>

@@ -36,7 +36,7 @@ const Franchise = () => {
   };
 
   return (
-    <div className='franc-cont'>
+    <div className='franc-cont' id='franchise'>
       <div className='franc-form'>
         <h1>Franchise <span style={{color:"red"}}>Enquiry</span></h1>
         <form>
