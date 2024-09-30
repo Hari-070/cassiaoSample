@@ -38,7 +38,7 @@ const Home = () => {
                 <img src={teaPic} alt='image' width="550px"/>
                 <div>
                   <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis.</p>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti assumenda nesciunt ea eos, aspernatur veritatis necessitatibus rem, porro magnam corporis velit pariatur temporibus et, asperiores odit ad itaque dicta.</p>
                 </div>
                 <p style={{position:"absolute",right:"8%",bottom:"3%",fontFamily:"smooch"}}>-Magic Cassiao</p>
                 

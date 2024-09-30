@@ -11,7 +11,8 @@ const Franchise = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if(name=='' || email=='' || number=='' || location==''){
-      alert("Fill all the fields!")
+      alert("Fill all the fields!");
+      return;
     }
     setName(''); setEmail(''); setNumber(''); setLocation('');
     console.log(name,number,location,email)
