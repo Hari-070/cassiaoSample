@@ -35,7 +35,7 @@ const Header = () => {
           <p onClick={()=>{document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>Contact Us</p>
       </div>:<></>}
       <div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}}>
-      <button className='header-call'>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
+      <button className='header-call' onClick={()=>window.location.href="tel:6380466977"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
       <IoMdMenu className='onMobileButton' style={{alignSelf:"center",fontSize:"30px"}} onClick={OpensideBar}/>
       </div>
         
