@@ -30,7 +30,7 @@ const Header = () => {
         {side?
         <div className='mobile-navi'>
         <IoMdClose style={{fontSize:"35px"}} onClick={closeSideBar}/>
-          <p onClick={()=>navigate('/')}>Home</p> 
+          <p onClick={()=>{navigate('/');setSide(false)}}>Home</p> 
           <p onClick={()=>{document.getElementById('service').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>About Us</p>
           <p onClick={()=>{document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>Contact Us</p>
       </div>:<></>}

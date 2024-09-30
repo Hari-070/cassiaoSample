@@ -111,6 +111,9 @@
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.313);
         height: 40vh;
     }
+    .home-hero-boxf h1{
+        font-size: 50px;
+    }
     .home-hero p{
         font-size: 20px;
     }

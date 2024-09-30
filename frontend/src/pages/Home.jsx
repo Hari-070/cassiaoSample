@@ -20,7 +20,9 @@ const Home = () => {
             <div className='home-hero'>
               <div className='home-hero-boxf'>
                 {/* <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span style={{color:'red',fontFamily:"Italianno",fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
-                <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span className='hero-span' style={{color:'red',fontFamily: 'Times New Roman',position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
+                {/* <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span className='hero-span' style={{color:'red',fontFamily: 'Times New Roman',position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
+                <h1>Magic <span style={{color:"red"}}>Cassiao</span></h1>
+                <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
               </div>
                 <div className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
