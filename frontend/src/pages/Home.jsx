@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import '../stylesheet/home.css'
 
 import Card from '../components/Card'
@@ -12,27 +12,47 @@ import black6 from '../assets/black6.jpeg'
 import black7 from '../assets/black7.jpeg'
 import SimpleForm from '../SimpleForm'
 import Franchise from '../components/Franchise' 
+import coffeeVideo from '../assets/coffee background.mp4'
 
 const Home = () => {
+
+  const videoRef = useRef(null);
+
+  // Function to handle skipping the last 5 seconds
+  const handleTimeUpdate = () => {
+    const video = videoRef.current;
+    if (video && video.duration - video.currentTime <= 5) {
+      video.currentTime = 0; // Restart the video when it's within the last 5 seconds
+    }
+  };
+
   return (
     <>
         {/* <div className='home'> */}
             <div className='home-hero'>
-              <div className='home-hero-boxf'>
-                {/* <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span style={{color:'red',fontFamily:"Italianno",fontSize:"210px",position:'absolute',top:"90px"}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
-                {/* <h1 style={{position:"relative", fontFamily: 'Times New Roman'}}>Magic <br/><span className='hero-span' style={{color:'red',fontFamily: 'Times New Roman',position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
+              <div className='home-vid'>
+                  <video ref={videoRef} onTimeUpdate={handleTimeUpdate} autoPlay loop muted className='back-vid'>
+                    <source src={coffeeVideo} type='video/mp4'/>
+                  </video>
+              </div>
+              <div className='home-overlay'></div>
+              {/* <div className='home-hero-boxf'>
                 <h1>Magic <span style={{color:"red"}}>Cassiao</span></h1>
                 <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
+              </div> */}
+              <div className='home-hero-boxf2'>
+                <p style={{fontFamily:"Italianno",color:"red",fontSize:"30px",fontWeight:"600"}}>Introducing</p>
+                <h1><span style={{color:"red"}}>Magic </span>Cassiao Tea</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum praesentium aut fugit mollitia, provident rerum quae, ratione, esse in harum dignissimos dolorem! Quos, cupiditate placeat. Dolor aut unde veritatis?</p>
+                <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Check Now</button>
               </div>
                 <div className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
-                    <h1 style={{fontSize:"50px"}}>₹ 4,00,000</h1>
+                    <h1 style={{fontSize:"40px"}}>₹ 4,00,000</h1>
                     <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire</button>
                 </div>
             </div>
-            {/* <div className='home-hero'>
-
-            </div> */}
+            
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
               <div className='home-service' id='service'>
                 <img src={teaPic} alt='image' width="550px"/>
