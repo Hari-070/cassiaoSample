@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import '../stylesheet/home.css'
 
+import {motion} from 'framer-motion'
 import Card from '../components/Card'
 import teaPic from '../assets/teaPic.jpg'
 import black1 from '../assets/black1.jpeg'
@@ -13,6 +14,7 @@ import black7 from '../assets/black7.jpeg'
 import SimpleForm from '../SimpleForm'
 import Franchise from '../components/Franchise' 
 import coffeeVideo from '../assets/coffee background.mp4'
+import Products from '../components/Products'
 
 const Home = () => {
 
@@ -29,7 +31,7 @@ const Home = () => {
   return (
     <>
         {/* <div className='home'> */}
-            <div className='home-hero'>
+            <div  className='home-hero'>
               <div className='home-vid'>
                   <video ref={videoRef} onTimeUpdate={handleTimeUpdate} autoPlay loop muted className='back-vid'>
                     <source src={coffeeVideo} type='video/mp4'/>
@@ -40,21 +42,33 @@ const Home = () => {
                 <h1>Magic <span style={{color:"red"}}>Cassiao</span></h1>
                 <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
               </div> */}
-              <div className='home-hero-boxf2'>
+              <motion.div 
+               initial={{opacity:"0", translateY:"50px"}}
+               whileInView={{opacity:"1", translateY:"0"}}
+               transition={{duration:0.5}}
+               className='home-hero-boxf2'>
                 <p style={{fontFamily:"Italianno",color:"red",fontSize:"30px",fontWeight:"600"}}>Introducing</p>
                 <h1><span style={{color:"red"}}>Magic </span>Cassiao Tea</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum praesentium aut fugit mollitia, provident rerum quae, ratione, esse in harum dignissimos dolorem! Quos, cupiditate placeat. Dolor aut unde veritatis?</p>
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Check Now</button>
-              </div>
-                <div className='home-hero-box'>
+              </motion.div>
+                <motion.div
+                   initial={{opacity:"0", translateY:"50px"}}
+                   whileInView={{opacity:"1", translateY:"0"}}
+                   transition={{duration:0.5}}
+                className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
                     <h1 style={{fontSize:"40px"}}>₹ 4,00,000</h1>
                     <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire</button>
-                </div>
+                </motion.div>
             </div>
             
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
-              <div className='home-service' id='service'>
+              <motion.div 
+                initial={{opacity:"0", scale:0.5}}
+                whileInView={{opacity:"1", scale:1 }}
+                transition={{duration:0.4}}
+               className='home-service' id='service'>
                 <img src={teaPic} alt='image' width="550px"/>
                 <div>
                   <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>
@@ -62,7 +76,7 @@ const Home = () => {
                 </div>
                 <p style={{position:"absolute",right:"8%",bottom:"3%",fontFamily:"smooch"}}>-Magic Cassiao</p>
                 
-              </div>
+              </motion.div>
             </div>
 
             <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
@@ -70,7 +84,7 @@ const Home = () => {
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     <h1>Products</h1>
                     {/* <hr style={{width:"200px", boxShadow:"0 10px 20px 5px white"}}></hr> */}
-                    <hr style={{
+                    <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}} style={{
                       width: "300px", 
                       height: "5px", 
                       border: "none", 
@@ -81,45 +95,15 @@ const Home = () => {
                     }} />
                   </div>
                   <div className='home-prod-cont'>
-                    <div className='home-prod-card'>
-                        <img src={black1} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black2} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black3} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black4} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black5} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black6} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black7} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
-
-                    <div className='home-prod-card'>
-                        <img src={black3} alt='black1' width="200px"/>
-                        <h2>Black Tea</h2>
-                    </div>
+                    <Products img={black1}/>
+                    <Products img={black2}/>
+                    <Products img={black3}/>
+                    <Products img={black4}/>
+                    <Products img={black5}/>
+                    <Products img={black6}/>
+                    <Products img={black7}/>
+                    <Products img={black3}/>
+                    
                   </div>
               </div>
             </div>

@@ -131,6 +131,9 @@
 .home-products-cont{
     height: 100vh;
 }
+
+
+/* Mobile view */
 @media(max-width: 450px){
     .home-hero{
         flex-direction: column;

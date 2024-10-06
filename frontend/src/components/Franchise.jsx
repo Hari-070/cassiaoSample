@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../stylesheet/franchise.css'
 import axios from 'axios'
+import {motion} from 'framer-motion'
 
 const Franchise = () => {
   const [name,setName]=useState('')
@@ -38,7 +39,9 @@ const Franchise = () => {
 
   return (
     <div className='franc-cont' id='franchise'>
-      <div className='franc-form'>
+      <motion.div 
+      initial={{opacity:0, translateY:"100px"}} whileInView={{opacity:1, translateY:"0"}} transition={{duration:0.5}}
+      className='franc-form'>
         <h1>Franchise <span style={{color:"red"}}>Enquiry</span></h1>
         <form>
           <div style={{display:"flex"}}>
@@ -58,7 +61,7 @@ const Franchise = () => {
         
         <button className='franc-submit' onClick={handleSubmit}>Submit</button>
         </form>
-      </div>
+      </motion.div>
     </div>
   )
 }
