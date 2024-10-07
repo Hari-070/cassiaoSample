@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import '../stylesheet/franchise.css'
 import axios from 'axios'
 import {motion} from 'framer-motion'
+import Loader from './Loader'
 
 const Franchise = () => {
   const [name,setName]=useState('')
   const [number,setNumber]=useState()
   const [location,setLocation]=useState('')
   const [email,setEmail]=useState('')
+  const [loading,setLoading] = useState(false)
   
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,6 +17,7 @@ const Franchise = () => {
       alert("Fill all the fields!");
       return;
     }
+    setLoading(true)
     setName(''); setEmail(''); setNumber(''); setLocation('');
     console.log(name,number,location,email)
     try {
@@ -23,14 +26,18 @@ const Franchise = () => {
       },
       {headers: {
         "Content-Type": "text/plain;charset=utf-8",}
-      },
-);
+      });
 
-      if (response.data.result === 'success') {
-        alert(`Data submitted: Name - ${response.data.name}, Number - ${response.data.number}`);
-      } else {
-        alert('Failed to submit data');
-      }
+      setLoading(false)
+
+      setTimeout(()=>{
+        if (response.data.result === 'success') {
+          alert(`Data submitted: Name - ${response.data.name}, Number - ${response.data.number}`);
+        } else {
+          alert('Failed to submit data');
+        }
+      },100);
+      
     } catch (error) {
       console.error('Error submitting data:', error);
       alert('An error occurred while submitting data.');
@@ -59,7 +66,11 @@ const Franchise = () => {
             </div>
           </div>
         
-        <button className='franc-submit' onClick={handleSubmit}>Submit</button>
+        <div style={{position:"relative"}}>{loading?
+          <Loader/>
+          :<button className='franc-submit' onClick={handleSubmit}>Submit</button>
+          }
+        </div>
         </form>
       </motion.div>
     </div>

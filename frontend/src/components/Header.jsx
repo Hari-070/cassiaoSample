@@ -23,16 +23,16 @@ const Header = () => {
         <img src={logo} alt='logo' width="70px"/>
         <div className='header-navi'>
             <p className='hideOnMobile' onClick={()=>navigate('/')}>Home</p>
-            <p className='hideOnMobile' onClick={()=>document.getElementById('service').scrollIntoView({ behavior: 'smooth' })}>About Us</p>
-            <p className='hideOnMobile' onClick={()=>document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' })}>Contact Us</p>
+            <p className='hideOnMobile' onClick={()=>navigate('/aboutUs')}>About Us</p>
+            <p className='hideOnMobile' onClick={()=>navigate('/contact-us')}>Contact Us</p>
         </div>
 
         {side?
         <div className='mobile-navi'>
         <IoMdClose style={{fontSize:"35px"}} onClick={closeSideBar}/>
           <p onClick={()=>{navigate('/');setSide(false)}}>Home</p> 
-          <p onClick={()=>{document.getElementById('service').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>About Us</p>
-          <p onClick={()=>{document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>Contact Us</p>
+          <p onClick={()=>{navigate("/aboutUs");setSide(false)}}>About Us</p>
+          <p onClick={()=>{navigate("/contact-us");setSide(false)}}>Contact Us</p>
       </div>:<></>}
       <div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}}>
       <button className='header-call' onClick={()=>window.location.href="tel:6380466977"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
@@ -45,44 +45,29 @@ const Header = () => {
   )
 }
 
-// const Header = () => {
-//   const navigate = useNavigate(); 
-//   const [isNavOpen, setIsNavOpen] = useState(false); // State to toggle nav
 
-//   return (
-//     <>
-//       <div className='header-cont'>
-//         <img src={logo} alt='logo' width="70px" style={{borderRadius:"50%"}}/>
-        
-//         <div className='header-navi'>
-//           <p onClick={() => navigate('/')}>Home</p>
-//           <p onClick={() => navigate('/aboutUs')}>About Us</p>
-//           <p onClick={() => navigate('/contact-us')}>Contact Us</p>
-//         </div>
+{/* <>
+<div className='header-cont'>
+  <img src={logo} alt='logo' width="70px"/>
+  <div className='header-navi'>
+      <p className='hideOnMobile' onClick={()=>navigate('/')}>Home</p>
+      <p className='hideOnMobile' onClick={()=>document.getElementById('service').scrollIntoView({ behavior: 'smooth' })}>About Us</p>
+      <p className='hideOnMobile' onClick={()=>document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' })}>Contact Us</p>
+  </div>
 
-//         <button className='header-call'>
-//           Call us <IoIosCall style={{ fontSize: "25px", color: "black" }}/>
-//         </button>
+  {side?
+  <div className='mobile-navi'>
+  <IoMdClose style={{fontSize:"35px"}} onClick={closeSideBar}/>
+    <p onClick={()=>{navigate('/');setSide(false)}}>Home</p> 
+    <p onClick={()=>{document.getElementById('service').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>About Us</p>
+    <p onClick={()=>{document.getElementById('franchise').scrollIntoView({ behavior: 'smooth' });setSide(false)}}>Contact Us</p>
+</div>:<></>}
+<div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}}>
+<button className='header-call' onClick={()=>window.location.href="tel:6380466977"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
+<IoMdMenu className='onMobileButton' style={{alignSelf:"center",fontSize:"30px"}} onClick={OpensideBar}/>
+</div>
+  
+</div>
 
-//         {/* Hamburger Menu for Mobile */}
-//         <button className="menu-toggle" onClick={() => setIsNavOpen(!isNavOpen)}>
-//           {isNavOpen ? <IoMdClose style={{ fontSize: "30px", color: "white" }}/> : <IoMdMenu style={{ fontSize: "30px", color: "white" }}/>}
-//         </button>
-
-//         {/* Mobile Menu */}
-//         {isNavOpen && (
-//           <div className="mobile-nav">
-//             <p onClick={() => navigate('/')}>Home</p>
-//             <p onClick={() => navigate('/aboutUs')}>About Us</p>
-//             <p onClick={() => navigate('/contact-us')}>Contact Us</p>
-//             <button className='mobile-call'>
-//               Call us <IoIosCall style={{ fontSize: "25px", color: "black" }}/>
-//             </button>
-//           </div>
-//         )}
-//       </div>
-//     </>
-//   );
-// };
-
+</> */}
 export default Header

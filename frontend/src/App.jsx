@@ -9,6 +9,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/aboutUs' element={<About/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
+          <Route path='*' element={<ErrorPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

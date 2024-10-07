@@ -86,20 +86,6 @@
     width: 50%;
 }
 
-.home-service{
-    color: white;
-    position: relative;
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    font-size: 20px;
-    height: 50vh;
-    border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.658) 0px 7px 29px 0px;
-    padding: 50px;
-}
 .home-products{
     color: white;
     display: flex;
@@ -177,15 +163,6 @@
     }
     .hero-span{
         top: 50px;
-    }
-    .home-service{
-        flex-direction: column;
-        padding: 50px 20px;
-        height: fit-content;
-        font-size: 15px;
-    }
-    .home-service img{
-        width: 300px;
     }
     .home-products-cont{
         height: 120vh;

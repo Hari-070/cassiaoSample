@@ -3,7 +3,6 @@ import '../stylesheet/home.css'
 
 import {motion} from 'framer-motion'
 import Card from '../components/Card'
-import teaPic from '../assets/teaPic.jpg'
 import black1 from '../assets/black1.jpeg'
 import black2 from '../assets/black2.jpeg'
 import black3 from '../assets/black3.jpeg'
@@ -15,6 +14,7 @@ import SimpleForm from '../SimpleForm'
 import Franchise from '../components/Franchise' 
 import coffeeVideo from '../assets/coffee background.mp4'
 import Products from '../components/Products'
+import About from './About'
 
 const Home = () => {
 
@@ -43,8 +43,8 @@ const Home = () => {
                 <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
               </div> */}
               <motion.div 
-               initial={{opacity:"0", translateY:"50px"}}
-               whileInView={{opacity:"1", translateY:"0"}}
+               initial={{opacity:0, translateY:"50px"}}
+               whileInView={{opacity:1, translateY:"0"}}
                transition={{duration:0.5}}
                className='home-hero-boxf2'>
                 <p style={{fontFamily:"Italianno",color:"red",fontSize:"30px",fontWeight:"600"}}>Introducing</p>
@@ -53,8 +53,8 @@ const Home = () => {
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Check Now</button>
               </motion.div>
                 <motion.div
-                   initial={{opacity:"0", translateY:"50px"}}
-                   whileInView={{opacity:"1", translateY:"0"}}
+                   initial={{opacity:0, translateY:"50px"}}
+                   whileInView={{opacity:1, translateY:"0"}}
                    transition={{duration:0.5}}
                 className='home-hero-box'>
                     <p>Take Action With Our Franchise At Affordable Price</p>
@@ -63,28 +63,14 @@ const Home = () => {
                 </motion.div>
             </div>
             
-            <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh",backgroundColor:"black"}}>
-              <motion.div 
-                initial={{opacity:"0", scale:0.5}}
-                whileInView={{opacity:"1", scale:1 }}
-                transition={{duration:0.4}}
-               className='home-service' id='service'>
-                <img src={teaPic} alt='image' width="550px"/>
-                <div>
-                  <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quos doloribus nulla ut quidem laboriosam, similique obcaecati fugiat, porro eius repellendus facere libero accusantium, sunt ipsum unde laborum. Mollitia, perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti assumenda nesciunt ea eos, aspernatur veritatis necessitatibus rem, porro magnam corporis velit pariatur temporibus et, asperiores odit ad itaque dicta.</p>
-                </div>
-                <p style={{position:"absolute",right:"8%",bottom:"3%",fontFamily:"smooch"}}>-Magic Cassiao</p>
-                
-              </motion.div>
-            </div>
+            <About/>
 
             <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     <h1>Products</h1>
                     {/* <hr style={{width:"200px", boxShadow:"0 10px 20px 5px white"}}></hr> */}
-                    <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}} style={{
+                    <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}} viewport={{once:true}} style={{
                       width: "300px", 
                       height: "5px", 
                       border: "none", 
