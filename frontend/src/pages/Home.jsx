@@ -14,7 +14,7 @@ import SimpleForm from '../SimpleForm'
 import Franchise from '../components/Franchise' 
 import coffeeVideo from '../assets/coffee background.mp4'
 import Products from '../components/Products'
-import About from './About'
+import AboutComp from '../components/AboutComp'
 
 const Home = () => {
 
@@ -63,7 +63,7 @@ const Home = () => {
                 </motion.div>
             </div>
             
-            <About/>
+            <AboutComp/>
 
             <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
               <div className='home-products'>

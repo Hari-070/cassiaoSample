@@ -1,3 +1,4 @@
+/* service */
 .about-service{
     color: white;
     position: relative;
@@ -6,22 +7,104 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    font-size: 18px;
+    font-size: 17px;
     height: 50vh;
     border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.658) 0px 7px 29px 0px;
+    box-shadow: rgba(255, 255, 255, 0.458) 0px 4px 20px 0px;
     padding: 50px;
 }
+.about-service-img{
+    width:50%;
+    overflow:hidden;
+    height:100%;
+}
+.about-service-desc{
+    width: 50%;
+}
+/* hero */
+.about-hero{
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../assets/coffee1.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
 
+/* choose us */
+.about-choose-cont{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+
+}
+.about-choose{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* border: 1px solid white; */
+}
+.about-choose-card{
+    width: 20%;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.525);
+    border-radius: 7px;
+}
+.about-logo{
+    font-size: 90px;
+    color: rgb(251, 65, 65);
+}
 /* mobile View */
 @media(max-width: 450px){
     .about-service{
+        position: relative;
         flex-direction: column;
         padding: 50px 20px;
-        height: fit-content;
+        height: 60vh;
         font-size: 15px;
+        gap: 5px;
     }
-    .about-service img{
-        width: 300px;
+    .about-service-img{
+        height: 50%;
+        width: 90%;
+        overflow: hidden;
+    }
+    .about-service-img img{
+        width: 350px;
+    }
+    .about-service-desc{
+        height: 50%;
+        width: 100%;
+
+    }
+    /* choose us */
+    .about-choose-cont{
+        height:200vh;
+    }
+    .about-choose{
+        flex-direction: column;
+        align-items: center;
+        height: 180vh;
+        gap: 20px;
+    }
+    .about-choose-card{
+        width: 70%;
+        height: 50vh;
     }
 }

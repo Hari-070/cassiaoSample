@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <>
       <div className='header-cont'>
-        <img src={logo} alt='logo' width="70px"/>
+        <img src={logo} alt='logo' width="70px" onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <div className='header-navi'>
             <p className='hideOnMobile' onClick={()=>navigate('/')}>Home</p>
             <p className='hideOnMobile' onClick={()=>navigate('/aboutUs')}>About Us</p>
