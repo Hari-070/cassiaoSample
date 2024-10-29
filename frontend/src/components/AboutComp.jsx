@@ -8,9 +8,10 @@ const AboutComp = () => {
     <div>
       <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"90vh",backgroundColor:"black"}}>
               <motion.div 
-                initial={{opacity:0, scale:0.8}}
-                whileInView={{opacity:1, scale:1 }}
-                transition={{duration:0.4}} viewport={{once:true}}
+                initial={{opacity:0, translateY:"50px"}}
+                whileInView={{opacity:1, translateY:"0" }}
+                transition={{duration:0.4}} 
+                // viewport={{once:true}}
                className='about-service' id='service'>
                 <div className='about-service-img' >
                 <img src={teaPic} alt='image' width="550px"/>

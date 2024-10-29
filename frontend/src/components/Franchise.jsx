@@ -47,7 +47,7 @@ const Franchise = () => {
   return (
     <div className='franc-cont' id='franchise'>
       <motion.div 
-      initial={{opacity:0, translateY:"100px"}} whileInView={{opacity:1, translateY:"0"}} transition={{duration:0.5}}
+      initial={{opacity:0, translateY:"60px"}} whileInView={{opacity:1, translateY:"0"}} transition={{duration:0.5}}
       className='franc-form'>
         <h1>Franchise <span style={{color:"red"}}>Enquiry</span></h1>
         <form>

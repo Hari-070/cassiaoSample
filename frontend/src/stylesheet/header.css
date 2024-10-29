@@ -14,7 +14,7 @@
 }
 .header-navi{
     display: flex;
-    width: 25%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
 
@@ -93,6 +93,9 @@
         /* font-size: 15px; */
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .header-call-cont{
+        width: 50%;
     }
     .header-cont img{
         width: 60px;

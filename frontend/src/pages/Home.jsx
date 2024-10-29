@@ -15,6 +15,7 @@ import Franchise from '../components/Franchise'
 import coffeeVideo from '../assets/coffee background.mp4'
 import Products from '../components/Products'
 import AboutComp from '../components/AboutComp'
+import Gallery from '../components/Gallery'
 
 const Home = () => {
 
@@ -65,12 +66,16 @@ const Home = () => {
             
             <AboutComp/>
 
+            <div className='product-hero'>
+              <h1>What We Provide</h1>
+              <p style={{color:"red"}}>The Magic lies in the Taste</p>
+            </div>     
             <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     <h1>Products</h1>
                     {/* <hr style={{width:"200px", boxShadow:"0 10px 20px 5px white"}}></hr> */}
-                    <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}} viewport={{once:true}} style={{
+                    <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}}  style={{
                       width: "300px", 
                       height: "5px", 
                       border: "none", 
@@ -93,6 +98,7 @@ const Home = () => {
                   </div>
               </div>
             </div>
+            {/* <Gallery/> */}
             <Franchise/>
         {/* </div> */}
       

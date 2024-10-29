@@ -70,7 +70,7 @@
     cursor: pointer;
 }
 .home-hero-box h1{
-    color: rgb(240, 178, 62);
+    color: rgb(240, 136, 62);
 }
 .home-hero-box p{
     color: rgb(255, 255, 255);
@@ -86,6 +86,17 @@
     width: 50%;
 }
 
+.product-hero{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../assets/g3.jpg");
+    background-position: 0px 930px;
+    background-size: cover;
+}
 .home-products{
     color: white;
     display: flex;
@@ -178,5 +189,8 @@
     }
     .home-prod-card img{
         width: 130px;
+    }
+    .product-hero{
+        background-position: 0 1920px;
     }
 }

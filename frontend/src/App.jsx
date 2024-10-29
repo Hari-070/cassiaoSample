@@ -10,6 +10,8 @@ import Contact from './pages/Contact'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import ErrorPage from './pages/ErrorPage'
+import Gallery from './components/Gallery'
+import FranchiseDetails from './pages/FranchiseDetails'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,8 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/aboutUs' element={<About/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
+          <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/franchise' element={<FranchiseDetails/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
         <Footer/>
