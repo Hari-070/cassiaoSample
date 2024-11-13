@@ -19,20 +19,20 @@ const About = () => {
 
        <motion.div className='about-choose-cont'
          initial={{opacity:0, translateY:"60px"}} whileInView={{opacity:1, translateY:"0"}} transition={{duration:0.5}}>
-        <h1>Why Choose<span style={{color:"red"}}> Us?</span></h1>
+        <h1>Why Choose<span style={{color:"white"}}> Us?</span></h1>
         <hr style={{width:"20%",backgroundColor:"white",border:"1px solid white",boxShadow:"0 5px 15px 2px white"}}></hr>
         <div className='about-choose'>
             <div className='about-choose-card'>
               <GiCoffeeBeans className='about-logo'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut, modi voluptates voluptatum laudantium hic distinctio ut corporis eligendi nostrum nemo quae molestiae nihil nulla, ipsum facere culpa quaerat rerum.</p>
+              <p>At Magic Cassiao, quality is our cornerstone. We meticulously select the finest tea powders from across India, ensuring that every cup is crafted with precision and care. Our blends are a perfect harmony of freshness, aroma, and flavor, providing you with a tea experience that is truly unmatched.</p>
             </div>
             <div className='about-choose-card'>
               <GiCoffeeCup  className='about-logo'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut, modi voluptates voluptatum laudantium hic distinctio ut corporis eligendi nostrum nemo quae molestiae nihil nulla, ipsum facere culpa quaerat rerum.</p>
+              <p>Our dedication to taste goes beyond the ordinary. Each sip of Magic Cassiao tea offers a burst of rich flavors, carefully balanced to create a delightful and memorable experience. Whether you prefer a soothing cup to unwind or a refreshing brew to kickstart your day, our teas are crafted to satisfy every palate.</p>
             </div>
             <div className='about-choose-card'>
               <CiCoffeeCup className='about-logo'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut, modi voluptates voluptatum laudantium hic distinctio ut corporis eligendi nostrum nemo quae molestiae nihil nulla, ipsum facere culpa quaerat rerum.</p>
+              <p>We believe in the power of purity. Our teas are not only delicious but also promote wellness. We are committed to serving teas that are as healthy as they are tasty, using only natural ingredients to ensure you enjoy the best of both worlds. At Magic Cassiao, every cup is a step towards a healthier and happier you.</p>
             </div>
         </div>
        </motion.div>

@@ -18,8 +18,8 @@ const Gallery = ({showHero=true}) => {
     </div>}
       <motion.div initial={{opacity:0,translateY:"60px"}} whileInView={{opacity:1,translateY:"0"}} transition={{duration:0.5}}
       className='gallery-cont'>
-        <h1>Gallery</h1>
-        <hr style={{width:"20%", boxShadow:"0 7px 20px 1px white",height:"5px",backgroundColor:"white",borderRadius:"10px"}}></hr>
+        <h1 style={{color:"black"}}>Gallery</h1>
+        <hr style={{width:"20%", boxShadow:"0 7px 20px 1px black",height:"5px",backgroundColor:"red",borderRadius:"10px"}}></hr>
       <div className='gallery-div'>
         <div className="gallery-col">
             <div className="photo"><img src={teaPic} alt='img'/></div>

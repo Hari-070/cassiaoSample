@@ -3,10 +3,14 @@
     height: 80vh;
     display: flex;justify-content: center;align-items: center;
     /* border: 1px solid white; */
-    background-color: rgb(21, 21, 21);
+    /* background-color: rgb(21, 21, 21); */
+    /* background-color: rgb(187, 26, 7); */
 }
 .franc-form{
-    background-color: black;
+    /* background-color: white; */
+    color: black;
+    /* background-color: rgb(187, 26, 7); */
+    background-color: rgb(235, 235, 235);
     height: 60vh;
     width: 50%;
     position: relative;

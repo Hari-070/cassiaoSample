@@ -1,0 +1,23 @@
+[
+    {
+      "category": "Milk Tea",
+      "image": "https://example.com/images/milk-tea.jpg"
+    },
+    {
+      "category": "MCT Special",
+      "image": "https://example.com/images/mct-special.jpg"
+    },
+    {
+      "category": "Black Tea",
+      "image": "https://example.com/images/black-tea.jpg"
+    },
+    {
+      "category": "Green Tea",
+      "image": "https://example.com/images/green-tea.jpg"
+    },
+    {
+      "category": "Filter Coffee",
+      "image": "https://example.com/images/filter-coffee.jpg"
+    }
+  ]
+  

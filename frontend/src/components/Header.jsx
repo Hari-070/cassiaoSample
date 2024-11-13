@@ -3,6 +3,7 @@ import '../stylesheet/header.css'
 import logo from '../assets/logo2.png'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { IoIosCall, IoMdMenu, IoMdClose } from "react-icons/io";
+import TopHeader from './TopHeader';
 
 
 const Header = () => {
@@ -19,6 +20,7 @@ const Header = () => {
 
   return (
     <>
+    <TopHeader/>
       <div className='header-cont'>
         <img src={logo} alt='logo' width="70px" onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <div className='header-navi'>

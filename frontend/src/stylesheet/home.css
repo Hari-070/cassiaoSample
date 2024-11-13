@@ -8,7 +8,7 @@
     position: relative;
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     /* font-family: "Protest Guerrilla"; */
 }
@@ -31,6 +31,11 @@
     z-index: -15;
 }
 .home-hero-boxf2{
+    background-color: rgba(248, 187, 187, 0.516);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-left: 15%;
     width: 30%;
     height: 50vh;
     display: flex;
@@ -97,28 +102,76 @@
     background-position: 0px 930px;
     background-size: cover;
 }
+.home-products-cont{
+    background-color:rgb(240, 247, 244);
+    display: flex;flex-direction: column;justify-content: space-between;align-items: center;
+    height: 150vh;
+}
 .home-products{
-    color: white;
+    /* color: white; */
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 86vh;
+    height: 100vh;
+    /* height: fit-content; */
     justify-content: space-around;
 
 }
 .home-prod-cont{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    width: 80%;
+    width: 80%; */
+
+    display: flex;flex-direction: column;
+    gap: 50px;
     
+}
+.home-prod-cont-tea{
+    width: 100%;
+    height: 40vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.home-prod-cont-drinks{
+    width: 100%;
+    height: 40vh;
+    /* background-color: black; */
+    display: flex;flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+.home-prod-tea{
+    width: 60%;
+    position: relative;
+    display: flex;flex-direction: column;
+    gap: 10px;
+}
+.home-prod-tea-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+}
+.home-prod-tea-title{
+    width: 40%;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.home-prod-tea-title p{
+    font-size: 50px;
+    font-weight: 600;
 }
 .home-prod-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.564);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.564);
     padding: 10px 5px;
 }
 .hero-span{

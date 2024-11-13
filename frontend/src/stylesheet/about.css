@@ -1,6 +1,7 @@
 /* service */
 .about-service{
-    color: white;
+    /* color: white; */
+    color: rgb(0, 0, 0);
     position: relative;
     display: flex;
     gap: 40px;
@@ -8,18 +9,25 @@
     align-items: center;
     width: 80%;
     font-size: 17px;
-    height: 50vh;
+    height: 60vh;
     border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.458) 0px 4px 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.458) 0px 4px 20px 0px;
+    /* box-shadow: rgba(255, 255, 255, 0.458) 0px 4px 20px 0px; */
     padding: 50px;
 }
 .about-service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:50%;
     overflow:hidden;
     height:100%;
 }
 .about-service-desc{
     width: 50%;
+}
+.about-service-desc p{
+    font-size: 16px;
 }
 /* hero */
 .about-hero{
@@ -44,7 +52,9 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(230, 39, 35);
     /* border: 1px solid white; */
+    color: black;
 
 }
 .about-choose{
@@ -56,6 +66,7 @@
     /* border: 1px solid white; */
 }
 .about-choose-card{
+    background-color: rgb(240, 247, 244);
     width: 20%;
     height: 90%;
     padding: 20px;
@@ -63,8 +74,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.525);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.347);
     border-radius: 7px;
+}
+.about-choose-card p{
+    font-size: 16px;
 }
 .about-logo{
     font-size: 90px;

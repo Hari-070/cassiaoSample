@@ -1,3 +1,19 @@
+/* top header */
+.topH-cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+    gap: 10px;
+    background-color: rgb(245, 29, 29);
+    color: white;
+}
+.topH-cont p{
+    margin-left: 20px;
+}
+
+/* header */
 .header-cont{
     width: 100%;
     display: flex;
@@ -27,7 +43,7 @@
 } 
 .header-navi p:hover{
     padding-bottom: 5px;
-    border-bottom: 3px solid red;
+    /* border-bottom: 3px solid red; */
 }
 
 .header-call{
@@ -94,8 +110,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header-call-cont{
-        width: 50%;
+    .header-call-cont button{
+        width: 110px;
+        
     }
     .header-cont img{
         width: 60px;

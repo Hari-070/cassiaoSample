@@ -12,7 +12,7 @@ const Products = (props) => {
        transition={{duration:0.5}} 
        className='home-prod-card'>
             <img src={props.img} alt='img' width="200px"/>
-            <h2>Black Tea</h2>
+            <h2>{props.name}</h2>
         </motion.div>
     </div>
   )

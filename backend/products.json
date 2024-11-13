@@ -1,0 +1,182 @@
+[
+    {
+      "name": "Plain Tea",
+      "category": "Milk Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A classic milk tea that provides a smooth and refreshing taste, perfect for any time of the day.",
+      "ingredients": ["Black tea", "Milk", "Sugar"],
+      "image": "https://example.com/images/plain-tea.jpg"
+    },
+    {
+      "name": "Ginger Tea",
+      "category": "Milk Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "This spicy yet soothing tea blends the zest of ginger with the creaminess of milk, giving you warmth and energy.",
+      "ingredients": ["Black tea", "Ginger", "Milk", "Sugar"],
+      "image": "https://example.com/images/ginger-tea.jpg"
+    },
+    {
+      "name": "Cardamom Tea",
+      "category": "Milk Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A fragrant tea with the exotic touch of cardamom, offering a perfect balance of spices and smooth milk.",
+      "ingredients": ["Black tea", "Cardamom", "Milk", "Sugar"],
+      "image": "https://example.com/images/cardamom-tea.jpg"
+    },
+    {
+      "name": "Gulkand Tea",
+      "category": "Milk Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A unique blend of milk tea with sweet rose petal jam (Gulkand), perfect for a soothing and floral experience.",
+      "ingredients": ["Black tea", "Gulkand (rose petal jam)", "Milk", "Sugar"],
+      "image": "https://example.com/images/gulkand-tea.jpg"
+    },
+    {
+      "name": "MCT Plain",
+      "category": "MCT Special",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A simple yet bold MCT beverage, offering a clean taste and a boost of energy to keep you refreshed.",
+      "ingredients": ["MCT oil", "Coffee", "Sugar"],
+      "image": "https://example.com/images/mct-plain.jpg"
+    },
+    {
+      "name": "MCT Milk",
+      "category": "MCT Special",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A rich and creamy blend of MCT oil and milk, providing sustained energy and a smooth texture.",
+      "ingredients": ["MCT oil", "Milk", "Coffee", "Sugar"],
+      "image": "https://example.com/images/mct-milk.jpg"
+    },
+    {
+      "name": "MCT Extra",
+      "category": "MCT Special",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A potent mix of MCT oil with an extra kick of coffee, giving you maximum energy and a smooth finish.",
+      "ingredients": ["MCT oil", "Coffee", "Milk", "Sugar"],
+      "image": "https://example.com/images/mct-extra.jpg"
+    },
+    {
+      "name": "MCT Express",
+      "category": "MCT Special",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A fast-acting MCT beverage with an energizing blend that helps you power through your day with ease.",
+      "ingredients": ["MCT oil", "Espresso", "Sugar"],
+      "image": "https://example.com/images/mct-express.jpg"
+    },
+    {
+      "name": "MCT Double",
+      "category": "MCT Special",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A double shot of MCT oil and coffee for the ultimate energy boost. Feel refreshed and ready to tackle anything.",
+      "ingredients": ["MCT oil", "Coffee", "Espresso", "Sugar"],
+      "image": "https://example.com/images/mct-double.jpg"
+    },
+    {
+      "name": "Black Tea",
+      "category": "Black Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A strong and bold black tea that invigorates your senses, perfect for those who enjoy a full-bodied flavor.",
+      "ingredients": ["Black tea", "Sugar"],
+      "image": "https://example.com/images/black-tea.jpg"
+    },
+    {
+      "name": "Lemon Tea",
+      "category": "Black Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A refreshing blend of black tea with a citrusy lemon twist, offering both zest and freshness in every sip.",
+      "ingredients": ["Black tea", "Lemon", "Sugar"],
+      "image": "https://example.com/images/lemon-tea.jpg"
+    },
+    {
+      "name": "Coriander Tea",
+      "category": "Black Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A unique infusion of coriander seeds with black tea, giving you a fragrant and health-boosting brew.",
+      "ingredients": ["Black tea", "Coriander seeds", "Sugar"],
+      "image": "https://example.com/images/coriander-tea.jpg"
+    },
+    {
+      "name": "Ginger + Lemon Tea",
+      "category": "Black Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A perfect combination of ginger and lemon in a robust black tea, offering a warm, spicy, and citrusy sensation.",
+      "ingredients": ["Black tea", "Ginger", "Lemon", "Sugar"],
+      "image": "https://example.com/images/ginger-lemon-tea.jpg"
+    },
+    {
+      "name": "Plain Tea",
+      "category": "Green Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A light and soothing green tea with a subtle grassy flavor, perfect for relaxation and rejuvenation.",
+      "ingredients": ["Green tea leaves"],
+      "image": "https://example.com/images/plain-green-tea.jpg"
+    },
+    {
+      "name": "Lemon Grass Tea",
+      "category": "Green Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A refreshing green tea combined with lemon grass, offering a delicate citrus flavor that's both soothing and uplifting.",
+      "ingredients": ["Green tea leaves", "Lemon grass"],
+      "image": "https://example.com/images/lemon-grass-tea.jpg"
+    },
+    {
+      "name": "Mint Green Tea",
+      "category": "Green Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A revitalizing blend of green tea and mint, providing a cool, refreshing flavor with every sip.",
+      "ingredients": ["Green tea leaves", "Mint leaves"],
+      "image": "https://example.com/images/mint-green-tea.jpg"
+    },
+    {
+      "name": "Lemon Tulasi Tea",
+      "category": "Green Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A fragrant mix of green tea and lemon tulasi, providing an aromatic and herbal experience that's both calming and energizing.",
+      "ingredients": ["Green tea leaves", "Lemon tulasi leaves"],
+      "image": "https://example.com/images/lemon-tulasi-tea.jpg"
+    },
+    {
+      "name": "Blue Green Tea",
+      "category": "Green Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A vibrant blue tea made from butterfly pea flower and green tea, offering a visually stunning and refreshing taste.",
+      "ingredients": ["Green tea leaves", "Butterfly pea flower"],
+      "image": "https://example.com/images/blue-green-tea.jpg"
+    },
+    {
+      "name": "Filter Coffee",
+      "category": "Filter Coffee",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A traditional South Indian filter coffee that's rich, strong, and full of flavor, perfect for any time of the day.",
+      "ingredients": ["Filter coffee beans", "Sugar", "Milk"],
+      "image": "https://example.com/images/filter-coffee.jpg"
+    },
+    {
+      "name": "Filter Black Coffee",
+      "category": "Filter Coffee",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A dark and bold black coffee brewed to perfection, offering a robust flavor without the need for milk.",
+      "ingredients": ["Filter coffee beans", "Sugar"],
+      "image": "https://example.com/images/filter-black-coffee.jpg"
+    }
+  ]

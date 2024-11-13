@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import '../stylesheet/home.css'
 
 import {motion} from 'framer-motion'
@@ -16,10 +16,14 @@ import coffeeVideo from '../assets/coffee background.mp4'
 import Products from '../components/Products'
 import AboutComp from '../components/AboutComp'
 import Gallery from '../components/Gallery'
+import axios from 'axios'
+import data from '../assets/categories.json'
+import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
 
   const videoRef = useRef(null);
+  // const [data,setData]=useState([])
 
   // Function to handle skipping the last 5 seconds
   const handleTimeUpdate = () => {
@@ -28,6 +32,17 @@ const Home = () => {
       video.currentTime = 0; // Restart the video when it's within the last 5 seconds
     }
   };
+
+
+  // const getP=async()=>{
+  //   await axios.get('http://localhost:3000/products')
+  //   .then(res=>(
+  //     setData(res.data)
+  //   ))
+  // }
+  // useEffect(()=>{
+  //   getP()
+  // },[]);
 
   return (
     <>
@@ -50,10 +65,10 @@ const Home = () => {
                className='home-hero-boxf2'>
                 <p style={{fontFamily:"Italianno",color:"red",fontSize:"30px",fontWeight:"600"}}>Introducing</p>
                 <h1><span style={{color:"red"}}>Magic </span>Cassiao Tea</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum praesentium aut fugit mollitia, provident rerum quae, ratione, esse in harum dignissimos dolorem! Quos, cupiditate placeat. Dolor aut unde veritatis?</p>
-                <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Check Now</button>
+                <p style={{fontSize:"15px"}}>At Magic Cassiao, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p>
+                <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire Now</button>
               </motion.div>
-                <motion.div
+                {/* <motion.div
                    initial={{opacity:0, translateY:"50px"}}
                    whileInView={{opacity:1, translateY:"0"}}
                    transition={{duration:0.5}}
@@ -61,7 +76,7 @@ const Home = () => {
                     <p>Take Action With Our Franchise At Affordable Price</p>
                     <h1 style={{fontSize:"40px"}}>₹ 4,00,000</h1>
                     <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire</button>
-                </motion.div>
+                </motion.div> */}
             </div>
             
             <AboutComp/>
@@ -70,7 +85,7 @@ const Home = () => {
               <h1>What We Provide</h1>
               <p style={{color:"red"}}>The Magic lies in the Taste</p>
             </div>     
-            <div  className='home-products-cont' style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"black"}}>
+            <div  className='home-products-cont'>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     <h1>Products</h1>
@@ -79,23 +94,50 @@ const Home = () => {
                       width: "300px", 
                       height: "5px", 
                       border: "none", 
-                      background: "white", // Solid white light for the lamp
+                      background: "red", // Solid white light for the lamp
                       boxShadow: "0 15px 30px 5px rgba(255, 255, 255)", // Light shining downwards
                       borderRadius: "5px", // Slightly round for a soft light
                       opacity: "0.9" // Slight opacity for more realistic light
                     }} />
                   </div>
                   <div className='home-prod-cont'>
-                    <Products img={black1}/>
+                    {/* <Products img={black1}/>
                     <Products img={black2}/>
                     <Products img={black3}/>
                     <Products img={black4}/>
                     <Products img={black5}/>
                     <Products img={black6}/>
                     <Products img={black7}/>
-                    <Products img={black3}/>
-                    
+                    <Products img={black3}/> */}
+                    <div className='home-prod-cont-tea'>
+                      <div className='home-prod-tea-title'>
+                        <p>Hot <span style={{color:"red"}}>Products</span></p>
+                      </div>
+                      <div className='home-prod-tea'>
+                        <div className='home-prod-tea-cards'>
+                          {data.map((item)=>(
+                            <Products img={black1} name={item.category}/>
+                          ))}
+                        </div>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight/></p>
+                      </div>
+                    </div>
+
+                    <div className='home-prod-cont-tea'>
+                      <div className='home-prod-tea-title'>
+                        <p>Summer <span style={{color:"red"}}>Special</span></p>
+                      </div>
+                      <div className='home-prod-tea'>
+                        <div className='home-prod-tea-cards'>
+                          {data.map((item)=>(
+                            <Products img={black1} name={item.category}/>
+                          ))}
+                        </div>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight/></p>
+                      </div>
+                    </div>
                   </div>
+
               </div>
             </div>
             {/* <Gallery/> */}
