@@ -119,7 +119,7 @@ const Home = () => {
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
-                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight/></p>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
                       </div>
                     </div>
 
@@ -133,7 +133,7 @@ const Home = () => {
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
-                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight/></p>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
                       </div>
                     </div>
                   </div>

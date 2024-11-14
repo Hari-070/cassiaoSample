@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <div className='footer-addr'>
             <div className='address'>
-            <CiLocationOn style={{fontSize:"20px",fontWeight:"900"}}/> <p style={{fontWeight:"700"}}>Address:</p>
+            <CiLocationOn style={{fontSize:"20px",fontWeight:"900"}}/> <p style={{fontWeight:"700",color:"red"}}>Address:</p>
             </div>
             <p>33/9, Veeraraghavar Street, Tiruchengode, Namakkal - 637211</p>
           </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
         <div className='footer-nav'>
             <div>
-              <p style={{fontWeight:"700",marginBottom:"10px"}}>Navigation</p>
+              <p style={{fontWeight:"700",marginBottom:"10px",color:"red"}}>Navigation</p>
               <div className='footer-nav-1'>
                 <p>Home</p>
                 <p>About us</p>
@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
             </div>
             <div className='contact'>
-            <p style={{fontWeight:"700",marginBottom:"10px"}}>Contacts</p>
+            <p style={{fontWeight:"700",marginBottom:"10px",color:"red"}}>Contacts</p>
               <div className='footer-nav-1'>
                 <p><IoIosCall/> Mobile: 91625213113</p>
                 <p><IoMailOpenOutline/> Mail: casiao@gmail.com</p>
@@ -46,13 +46,11 @@ const Footer = () => {
 
         <div className='footer-about'>
             <div className='footer-about-1'>
-              <p style={{fontWeight:"700"}}>A Short Note On Us</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, tempore quos aspernatur natus odit quam voluptatum
-                sapiente quia, vel facilis molestiae dolorem? 
-                Hic ducimus quasi eius dolorem alias aliquam ea.</p>
+              <p style={{fontWeight:"700",color:"red"}}>A Short Note On Us</p>
+              <p>What sets us apart is our relentless pursuit of excellence. We source the finest tea leaves from the most renowned tea gardens across India, ensuring that each blend carries the essence of its origin</p>
             </div>
             <div className='social'>
-              <p style={{fontWeight:"700"}}>Follow us on</p>
+              <p style={{fontWeight:"700",color:"red"}}>Follow us on</p>
               <div className='social-1'>
                 <FaInstagram/>
                 <FaFacebookSquare/>

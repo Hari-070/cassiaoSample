@@ -12,9 +12,9 @@ const TopHeader = () => {
   return (
     <>
       <div className='topH-cont'>
-        <p><IoIosCall/> 8787878787 / 62346623 </p>
-        <p><IoMailOpenOutline/> casiao@gmail.com</p>
-        <p><CiLocationOn/> Erode</p>
+        <p><IoIosCall/> &nbsp;8787878787 / 62346623 </p>
+        <p><IoMailOpenOutline/> &nbsp;casiao@gmail.com</p>
+        <p><CiLocationOn/> &nbsp;Erode</p>
       </div>
     </>
   )

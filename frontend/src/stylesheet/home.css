@@ -4,6 +4,7 @@
     height: 100vh;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.329)),url('https://cdn.pixabay.com/photo/2024/04/08/19/54/coffee-8684315_1280.jpg'); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.329)),url('../assets/hero.png'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("../assets/tea_back3.png");
     background-position: center;
     position: relative;
     background-size: cover;
@@ -31,7 +32,7 @@
     z-index: -15;
 }
 .home-hero-boxf2{
-    background-color: rgba(248, 187, 187, 0.516);
+    background-color: rgba(255, 255, 255, 0.516);
     backdrop-filter: blur(10px);
     padding: 20px 30px;
     border-radius: 10px;
@@ -103,6 +104,9 @@
     background-size: cover;
 }
 .home-products-cont{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.54),rgba(255, 255, 255, 0.24)),url("../assets/tea_back.png"); */
+    /* background-position: center; */
+    /* background-size: cover; */
     background-color:rgb(240, 247, 244);
     display: flex;flex-direction: column;justify-content: space-between;align-items: center;
     height: 150vh;
@@ -150,6 +154,9 @@
     position: relative;
     display: flex;flex-direction: column;
     gap: 10px;
+}
+.home-prod-tea p{
+    cursor: pointer;
 }
 .home-prod-tea-cards{
     width: 100%;
@@ -217,7 +224,9 @@
     }
     .home-hero-boxf2{
         width: 80%;
-        padding: 10%;
+        padding: 5px 1px 5px 20px;
+        margin-left: 10px;
+        margin-top: 30%;
     }
     .home-hero-boxf2 h1{
         font-size: 20px;
