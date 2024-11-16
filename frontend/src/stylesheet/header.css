@@ -27,7 +27,8 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color: rgb(247, 242, 242);
+    /* background-color: rgb(247, 242, 242); */
+    background-color: rgb(255, 255, 255);
     color: black;
     box-shadow: 0 0 10px red;
     z-index: 100;

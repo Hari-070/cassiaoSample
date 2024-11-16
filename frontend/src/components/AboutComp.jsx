@@ -7,7 +7,7 @@ import feel from '../assets/feel the magic.png'
 const AboutComp = () => {
   return (
     <div>
-      <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"90vh",backgroundColor:"rgb(255, 255, 255)"}}>
+      <div style={{display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"rgb(255, 255, 255)"}} className='about-cont'>
               <motion.div 
                 initial={{opacity:0, translateY:"50px"}}
                 whileInView={{opacity:1, translateY:"0" }}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+/* hero */
 .home-hero{
     width: 100%;
     height: 100vh;
@@ -92,6 +93,7 @@
     width: 50%;
 }
 
+/* product */
 .product-hero{
     width: 100%;
     height: 50vh;
@@ -107,9 +109,9 @@
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.54),rgba(255, 255, 255, 0.24)),url("../assets/tea_back.png"); */
     /* background-position: center; */
     /* background-size: cover; */
+    height: 120vh;
     background-color:rgb(240, 247, 244);
-    display: flex;flex-direction: column;justify-content: space-between;align-items: center;
-    height: 150vh;
+    display: flex;flex-direction: column;justify-content: space-around;align-items: center;
 }
 .home-products{
     /* color: white; */
@@ -117,9 +119,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     /* height: fit-content; */
     justify-content: space-around;
+    gap: 50px;
 
 }
 .home-prod-cont{
@@ -128,7 +131,6 @@
     gap: 40px;
     flex-wrap: wrap;
     width: 80%; */
-
     display: flex;flex-direction: column;
     gap: 50px;
     
@@ -153,6 +155,7 @@
     width: 60%;
     position: relative;
     display: flex;flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 .home-prod-tea p{
@@ -161,6 +164,7 @@
 .home-prod-tea-cards{
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     overflow: hidden;
@@ -170,10 +174,10 @@
     display: flex;
     justify-content: center;align-items: center;
 }
-.home-prod-tea-title p{
+/* .home-prod-tea-title p{
     font-size: 50px;
     font-weight: 600;
-}
+} */
 .home-prod-card{
     display: flex;
     flex-direction: column;
@@ -185,9 +189,7 @@
     font-size: "210px";
     top: 100px;
 }
-.home-products-cont{
-    height: 100vh;
-}
+
 
 
 /* Mobile view */
@@ -237,22 +239,41 @@
     .hero-span{
         top: 50px;
     }
+
+
     .home-products-cont{
-        height: 120vh;
+        height: 250vh;
+        /* justify-content: space-between; */
+        gap: 100px;
+        position: relative;
     }
     .home-products{
-        height: 100vh;
+        height: 100%;
+        justify-content: flex-start;
+        gap: 80px;
     }
     .home-prod-cont{
         margin-top: 30px;
-        gap: 30px;
+        gap: 150px;
         width: 100%;
+        height: 150vh;
         font-size: 12px;
     }
     .home-prod-card img{
-        width: 130px;
+        width: 180px;
     }
     .product-hero{
         background-position: 0 1920px;
+    }
+    .home-prod-tea{
+        align-items: center;
+    }
+    .home-prod-cont-tea{
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .home-prod-tea-title img{
+        width:120%;
     }
 }

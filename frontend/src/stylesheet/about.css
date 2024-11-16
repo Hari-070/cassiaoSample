@@ -1,4 +1,7 @@
 /* service */
+.about-cont{
+    height: 90vh;
+}
 .about-service{
     /* color: white; */
     color: rgb(0, 0, 0);
@@ -89,13 +92,20 @@
     .about-service{
         position: relative;
         flex-direction: column;
+        justify-content: flex-start;
         padding: 50px 20px;
-        height: 60vh;
+        height: 100vh;
         font-size: 15px;
-        gap: 5px;
+        gap: 20px;
+    }
+    .about-cont{
+        height: 130vh;
+    }
+    .about-service-desc{
+        height: 100vh;
     }
     .about-service-img{
-        height: 50%;
+        height: 30%;
         width: 90%;
         overflow: hidden;
     }

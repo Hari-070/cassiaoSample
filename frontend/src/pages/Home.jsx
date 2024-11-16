@@ -88,11 +88,11 @@ const Home = () => {
               <h1>What We Provide</h1>
               <p style={{color:"red"}}>The Magic lies in the Taste</p>
             </div>     
-            <div  className='home-products-cont'>
+            <div className='home-products-cont'>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
                     {/* <h1>Products</h1> */}
-                    <img src={products_head} alt='products' width="40%" style={{marginBottom:"10px"}}/>
+                    <img src={products_head} alt='products' width="40%" style={{marginBottom:"10px",marginTop:"10px"}}/>
                     {/* <hr style={{width:"200px", boxShadow:"0 10px 20px 5px white"}}></hr> */}
                     <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}}  style={{
                       width: "300px", 
@@ -120,7 +120,7 @@ const Home = () => {
                       </div>
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
-                          {data.map((item)=>(
+                          {data.slice(0,3).map((item)=>(
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
@@ -135,7 +135,7 @@ const Home = () => {
                       </div>
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
-                          {data.map((item)=>(
+                          {data.slice(0,3).map((item)=>(
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
