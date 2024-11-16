@@ -3,6 +3,9 @@ import '../stylesheet/home.css'
 
 import {motion} from 'framer-motion'
 import Card from '../components/Card'
+import hot from '../assets/hot_products.png'
+import summer from '../assets/summer special.png'
+import products_head from '../assets/products.png'
 import black1 from '../assets/black1.jpeg'
 import black2 from '../assets/black2.jpeg'
 import black3 from '../assets/black3.jpeg'
@@ -48,12 +51,12 @@ const Home = () => {
     <>
         {/* <div className='home'> */}
             <div  className='home-hero'>
-              <div className='home-vid'>
+              {/* <div className='home-vid'>
                   <video ref={videoRef} onTimeUpdate={handleTimeUpdate} autoPlay loop muted className='back-vid'>
                     <source src={coffeeVideo} type='video/mp4'/>
                   </video>
               </div>
-              <div className='home-overlay'></div>
+              <div className='home-overlay'></div> */}
               {/* <div className='home-hero-boxf'>
                 <h1>Magic <span style={{color:"red"}}>Cassiao</span></h1>
                 <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
@@ -63,8 +66,8 @@ const Home = () => {
                whileInView={{opacity:1, translateY:"0"}}
                transition={{duration:0.5}}
                className='home-hero-boxf2'>
-                <p style={{fontFamily:"Italianno",color:"red",fontSize:"30px",fontWeight:"600"}}>Introducing</p>
-                <h1><span style={{color:"red"}}>Magic </span>Cassiao Tea</h1>
+                <p style={{fontFamily:"Italianno",color:"rgb(255,255,255)",fontSize:"200%",fontWeight:"400"}}>Introducing</p>
+                <h1 style={{fontFamily:"Montserrat",fontWeight:"550"}}><span style={{color:"red",fontFamily:"Montserrat",fontWeight:"580"}}>Magic </span>Cassiao Tea</h1>
                 <p style={{fontSize:"15px"}}>At Magic Cassiao, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p>
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire Now</button>
               </motion.div>
@@ -88,7 +91,8 @@ const Home = () => {
             <div  className='home-products-cont'>
               <div className='home-products'>
                   <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-                    <h1>Products</h1>
+                    {/* <h1>Products</h1> */}
+                    <img src={products_head} alt='products' width="40%" style={{marginBottom:"10px"}}/>
                     {/* <hr style={{width:"200px", boxShadow:"0 10px 20px 5px white"}}></hr> */}
                     <motion.hr initial={{opacity:0, translateZ:"100px",scale:0}} whileInView={{opacity:1, translateZ:"0",scale:1}} transition={{duration:1}}  style={{
                       width: "300px", 
@@ -111,7 +115,8 @@ const Home = () => {
                     <Products img={black3}/> */}
                     <div className='home-prod-cont-tea'>
                       <div className='home-prod-tea-title'>
-                        <p>Hot <span style={{color:"red"}}>Products</span></p>
+                        {/* <p>Hot <span style={{color:"red"}}>Products</span></p> */}
+                        <img src={hot} alt='hot products' width="70%"/>
                       </div>
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
@@ -125,7 +130,8 @@ const Home = () => {
 
                     <div className='home-prod-cont-tea'>
                       <div className='home-prod-tea-title'>
-                        <p>Summer <span style={{color:"red"}}>Special</span></p>
+                        {/* <p>Summer <span style={{color:"red"}}>Special</span></p> */}
+                        <img src={summer} alt='summer specials' width="70%"/>
                       </div>
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>

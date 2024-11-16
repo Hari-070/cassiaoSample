@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import ErrorPage from './pages/ErrorPage'
 import Gallery from './components/Gallery'
 import FranchiseDetails from './pages/FranchiseDetails'
+import AllProducts from './pages/AllProducts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/franchise' element={<FranchiseDetails/>}/>
+          <Route path='/products' element={<AllProducts/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>
         <Footer/>

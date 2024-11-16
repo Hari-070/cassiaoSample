@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../stylesheet/header.css'
-import logo from '../assets/logo2.png'
+import logo from '../assets/logo4.png'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { IoIosCall, IoMdMenu, IoMdClose } from "react-icons/io";
 import TopHeader from './TopHeader';
@@ -22,13 +22,14 @@ const Header = () => {
     <>
     <TopHeader/>
       <div className='header-cont'>
-        <img src={logo} alt='logo' width="70px" onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
+        <img src={logo} alt='logo' width="140px" onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <div className='header-navi'>
             <p className='hideOnMobile' onClick={()=>navigate('/')} style={location.pathname==='/'?{color:"red"}:{}}>Home</p>
             <p className='hideOnMobile' onClick={()=>navigate('/aboutUs')} style={location.pathname==='/aboutUs'?{color:"red"}:{}}>About Us</p>
             <p className='hideOnMobile' onClick={()=>navigate('/contact-us')} style={location.pathname==='/contact-us'?{color:"red"}:{}}>Contact Us</p>
             <p className='hideOnMobile' onClick={()=>navigate('/gallery')} style={location.pathname==='/gallery'?{color:"red"}:{}}>Gallery</p>
             <p className='hideOnMobile' onClick={()=>navigate('/franchise')} style={location.pathname==='/franchise'?{color:"red"}:{}}>Franchise</p>
+            <p className='hideOnMobile' onClick={()=>navigate('/products')} style={location.pathname==='/products'?{color:"red"}:{}}>Products</p>
         </div>
 
         {side?
@@ -39,6 +40,7 @@ const Header = () => {
           <p onClick={()=>{navigate("/contact-us");setSide(false)}}>Contact Us</p>
           <p onClick={()=>{navigate("/gallery");setSide(false)}}>Gallery</p>
           <p onClick={()=>{navigate("/franchise");setSide(false)}}>Franchise</p>
+          <p onClick={()=>{navigate("/products");setSide(false)}}>Products</p>
       </div>:<></>}
       <div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}} className='header-call-cont'>
       <button className='header-call' onClick={()=>window.location.href="tel:6380466977"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>

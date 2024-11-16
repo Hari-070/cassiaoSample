@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+// import logo from '../assets/logo.png'
+import logo from '../assets/logo4.png'
 import { CiLocationOn } from "react-icons/ci";
 import '../stylesheet/footer.css'
 import { IoIosCall } from "react-icons/io";
@@ -16,7 +17,7 @@ const Footer = () => {
         <div className='footer-address'>
           <div className='footer-logo'>
             <img src={logo} alt='logo' />
-            <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span className="casio"style={{color:'red',fontFamily:"Italianno",position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1>
+            {/* <h1 style={{position:"relative",fontFamily:"Bonheur Royale"}}>Magic <br/><span className="casio"style={{color:'red',fontFamily:"Italianno",position:'absolute'}}>Cassiao</span><span style={{marginTop:"100px"}}></span>-Tea</h1> */}
           </div>
           <div className='footer-addr'>
             <div className='address'>

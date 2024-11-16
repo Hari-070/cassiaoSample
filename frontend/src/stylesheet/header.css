@@ -33,12 +33,12 @@
     z-index: 100;
 }
 .header-cont img{
-    margin: 5px 20px;
-    border-radius: 50%;
+    margin: 0px 20px;
+    /* border-radius: 50%; */
 }
 .header-navi{
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
 
@@ -123,8 +123,8 @@
         
     }
     .header-cont img{
-        width: 60px;
-        height: 60px;
+        width: 130px;
+        height: 80px;
         align-self: center;
     }
 }

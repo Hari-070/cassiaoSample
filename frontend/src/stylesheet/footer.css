@@ -16,8 +16,8 @@
     gap: 20px;
 }
 .footer-logo img{
-    border-radius: 50%;
-    width: 110px;
+    /* border-radius: 50%; */
+    width: 300px;
 }
 .footer-logo h1{
     font-size:50px;

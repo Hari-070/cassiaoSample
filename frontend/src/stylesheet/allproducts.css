@@ -1,0 +1,12 @@
+.products-hero{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../assets/tea_back2.png");
+    /* background-position: 0px 950px; */
+    background-position: center;
+    background-size: cover;
+}
