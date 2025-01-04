@@ -24,6 +24,8 @@
 /* header */
 .header-cont{
     width: 100%;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -35,6 +37,7 @@
 }
 .header-cont img{
     margin: 0px 20px;
+    width:140px;
     /* border-radius: 50%; */
 }
 .header-navi{

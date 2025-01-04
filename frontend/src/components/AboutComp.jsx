@@ -13,7 +13,7 @@ const AboutComp = () => {
                 whileInView={{opacity:1, translateY:"0" }}
                 transition={{duration:0.4}} 
                 // viewport={{once:true}}
-               className='about-service' id='service' style={{backgroundColor:"rgb(240, 247, 244)"}}>
+               className='about-service' id='service' style={{backgroundColor:"rgb(249,250,251)"}}>
                 <div className='about-service-img' >
                 <img src={teaPic} alt='image'  height="100%"/>
                 </div>

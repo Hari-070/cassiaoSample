@@ -22,8 +22,11 @@ import Gallery from '../components/Gallery'
 import axios from 'axios'
 import data from '../assets/categories.json'
 import { FaArrowRight } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+  const navigate=useNavigate()
 
   const videoRef = useRef(null);
   // const [data,setData]=useState([])
@@ -84,6 +87,7 @@ const Home = () => {
             
             <AboutComp/>
 
+            {/* products */}
             <div className='product-hero'>
               <h1>What We Provide</h1>
               <p style={{color:"red"}}>The Magic lies in the Taste</p>
@@ -124,7 +128,7 @@ const Home = () => {
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
-                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}} onClick={()=>navigate('/products')}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
                       </div>
                     </div>
 
@@ -139,7 +143,7 @@ const Home = () => {
                             <Products img={black1} name={item.category}/>
                           ))}
                         </div>
-                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
+                        <p style={{display:"flex", justifyContent:"center", alignItems:"center"}} onClick={()=>navigate('/products')}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
                       </div>
                     </div>
                   </div>
@@ -147,6 +151,26 @@ const Home = () => {
               </div>
             </div>
             {/* <Gallery/> */}
+            
+            {/* testimonials */}
+            <div className='testimonials_cont'>
+              <h1>What Our Customers Say</h1>
+              <div className='inside_testimonial_cont'>
+                <div className='testimonial_card'>
+                  <p className='testimonial_p'><FaStar style={{color:"rgb(255, 187, 0)"}}/>Regular Customer</p>
+                  <p>The best milk tea I've ever had! The quality and taste are consistently excellent.</p>
+                </div>
+                <div className='testimonial_card'>
+                  <p className='testimonial_p'><FaStar style={{color:"rgb(255, 187, 0)"}}/>Franchise Owner</p>
+                  <p>Joining the Magic Cassiao Tea family was the best business decision I've made.</p>
+                </div>
+                <div className='testimonial_card'>
+                  <p className='testimonial_p'><FaStar style={{color:"rgb(255, 187, 0)"}}/>Food Blogger</p>
+                  <p>Their innovative flavors and commitment to quality sets them apart in the industry.</p>
+                </div>
+              </div>
+            </div>
+
             <Franchise/>
         {/* </div> */}
       

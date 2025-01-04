@@ -55,7 +55,8 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 75 ,75);
+    /* background-color: rgb(255, 75 ,75); */
+    background-color: rgb(231, 37, 37);
     /* border: 1px solid white; */
     color: black;
 

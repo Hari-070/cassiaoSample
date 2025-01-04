@@ -22,7 +22,7 @@ const Header = () => {
     <>
     <TopHeader/>
       <div className='header-cont'>
-        <img src={logo} alt='logo' width="140px" onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
+        <img src={logo} alt='logo' onClick={()=>navigate('/')} style={{cursor:'pointer'}}/>
         <div className='header-navi'>
             <p className='hideOnMobile' onClick={()=>navigate('/')} style={location.pathname==='/'?{color:"red"}:{}}>Home</p>
             <p className='hideOnMobile' onClick={()=>navigate('/aboutUs')} style={location.pathname==='/aboutUs'?{color:"red"}:{}}>About Us</p>
