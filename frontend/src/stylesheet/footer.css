@@ -1,3 +1,12 @@
+.footerCopy{
+    width: 100%;
+    background-color: rgb(255, 249, 249);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .footer-cont{
     width: 100%;
     height: 50vh;
@@ -88,6 +97,18 @@
 .social-1{
     display: flex;
     gap: 10px;
+}
+
+
+.copyrightSec{
+    width: 100%;
+    color: rgb(92, 92, 92);
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 @media(max-width: 450px){

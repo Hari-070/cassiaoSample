@@ -8,10 +8,12 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import {motion} from 'framer-motion'
 
 const Footer = () => {
   return (
     <>
+    <div className='footerCopy'>
       <div className='footer-cont'>
 
         <div className='footer-address'>
@@ -60,6 +62,17 @@ const Footer = () => {
             </div>
         </div>
 
+      </div>
+        <div className='copyrightSec'>
+          <motion.hr
+            initial={{opacity:0,translateZ:"100px",scale:0}}
+            whileInView={{opacity:1,translateZ:0,scale:1}}
+            transition={{duration:0.8}} style={{width:"70%",border:"0.5px solid rgba(255, 0, 0, 0.207)"}}></motion.hr>
+          <motion.p
+          initial={{opacity:0, translateY:"15px"}}
+          whileInView={{opacity:1, translateY:"0px"}}
+          transition={{duration:0.5}}>© 2025 Magic Cassiao. All rights reserved. | Designed and Developed by Magic Cassiao.</motion.p>
+        </div>
       </div>
     </>
   )
