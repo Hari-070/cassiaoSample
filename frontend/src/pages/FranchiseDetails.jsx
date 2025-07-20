@@ -20,12 +20,15 @@
 
 import React from 'react';
 import { IndianRupee, Users, BarChart, ShoppingBag, Headphones, Store, Award, TrendingUp, Coffee, Target } from 'lucide-react';
-// import './FranchiseDetails.css';  // Import the CSS file
 import "../stylesheet/franchiseDetails.css"
+import franImg from '../assets/join_franchise.png'
+import { useNavigate } from 'react-router-dom';
 
 const Franchise = () => {
+
+  const navigate=useNavigate()
   return (
-    <div className="franchise-container">
+    <div className="franchise-container" style={{color:"black"}}>
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-overlay">
@@ -77,13 +80,6 @@ const Franchise = () => {
           </div>
         </div>
       </section>
-      {/* <div>
-        <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        </div>
-      </div> */}
 
       {/* Investment Details */}
       <section className="investment-details">
@@ -113,9 +109,10 @@ const Franchise = () => {
 
             <div className="investment-image">
               <img
-                src="https://images.unsplash.com/photo-1542181961-9590d0c79dab?auto=format&fit=crop&q=80"
+                // src="https://images.unsplash.com/photo-1542181961-9590d0c79dab?auto=format&fit=crop&q=80"
+                src={franImg}
                 alt="Modern Tea Shop"
-                className="investment-img"
+                // className="investment-img"
                 width="100%"
               />
             </div>
@@ -190,6 +187,7 @@ const Franchise = () => {
           <h2 className="section-title">Business Performance</h2>
           <hr style={{width:"20%",borderColor:"red",marginBottom:"30px"}}/>
           </div>
+          
           <div className="performance-grid">
             <div className="performance-item">
               <BarChart className="performance-icon" />
@@ -203,6 +201,7 @@ const Franchise = () => {
                 <li>Developing locations: 8-9 months</li>
               </ul>
             </div>
+
             <div className="performance-item">
               <ShoppingBag className="performance-icon" />
               <h3 className="performance-title">Sales Potential</h3>
@@ -215,6 +214,7 @@ const Franchise = () => {
                 <li>Additional snack sales revenue</li>
               </ul>
             </div>
+
             <div className="performance-item">
               <Users className="performance-icon" />
               <h3 className="performance-title">Growth Opportunity</h3>
@@ -370,16 +370,18 @@ const Franchise = () => {
                 <div className='next-step-ele'><p className='next-step-num'>4</p><p>Begin your success journey</p></div>
               </div>
 
-              <button className="cta-button1">Contact Us Now</button>
-              <button className="cta-button2">View Our Products</button>
+              <button className="cta-button1" onClick={()=>{navigate("/contact-us")}}>Contact Us Now</button>
+              <button className="cta-button2" style={{cursor:"pointer"}} onClick={()=>navigate("/products")}>View Our Products</button>
               <hr style={{width:"50%",border:"1px solid red"}}></hr>
               <p className='cta-desc'>By contacting us, you'll receive detailed information about our franchise opportunity and guidance throughout the process.</p>
             </div>
           </div>
           
           
+          
         </div>
       </section>
+      
     </div>
   );
 };

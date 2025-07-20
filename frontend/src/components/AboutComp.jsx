@@ -1,5 +1,6 @@
 import React from 'react'
-import teaPic from '../assets/teaPic.jpg'
+import teaPic from '../assets/p5.png'
+// import teaPic from '../assets/teaPic.jpg'
 import '../stylesheet/about.css'
 import {motion} from 'framer-motion'
 import feel from '../assets/feel the magic.png'

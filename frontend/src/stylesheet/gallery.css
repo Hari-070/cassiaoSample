@@ -24,7 +24,7 @@
     font-size: 35px;
     font-weight: 600;
 }
-.gallery-div{
+/* .gallery-div{
     width: 70%;
     height: 100%;
     display: flex;
@@ -34,12 +34,27 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+} */
 .photo img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
+/**/
+.gal-photo {
+  width: 100%; 
+  /* object-fit: cover; */
+  position: relative;
+  overflow: hidden; 
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+}
+
+.gal-photo:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
 
 @media(max-width: 450px){
     .gallery-div{
