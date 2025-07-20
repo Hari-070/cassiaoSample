@@ -18,13 +18,18 @@
 // export default FranchiseDetails
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { IndianRupee, Users, BarChart, ShoppingBag, Headphones, Store, Award, TrendingUp, Coffee, Target } from 'lucide-react';
 import "../stylesheet/franchiseDetails.css"
 import franImg from '../assets/join_franchise.png'
 import { useNavigate } from 'react-router-dom';
 
 const Franchise = () => {
+
+   useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
+
 
   const navigate=useNavigate()
   return (

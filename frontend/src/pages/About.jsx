@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import teaPic from '../assets/teaPic.jpg'
 import '../stylesheet/about.css'
 import {motion} from 'framer-motion'
@@ -8,6 +8,9 @@ import { CiCoffeeCup } from "react-icons/ci";
 import Gallery from '../components/Gallery'
 
 const About = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   return (
     <div>
       <div className='about-hero'>

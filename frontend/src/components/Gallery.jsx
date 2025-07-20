@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import '../stylesheet/gallery.css'
 import g1 from '../assets/g1.jpg'
@@ -22,6 +22,10 @@ const Gallery = ({showHero=true}) => {
   };
 
   const images = importAllImages();
+
+   useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
 
 
   return (

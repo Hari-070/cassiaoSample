@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../stylesheet/allproducts.css'
 import products from '../assets/products.json'
 import ProductCard from '../components/ProductCard';
@@ -8,6 +8,10 @@ const AllProducts = () => {
   const categories=Array.from(new Set(products.map(p => p.category)));
 
   console.log(categories)
+
+   useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
 
   return (
     <>
