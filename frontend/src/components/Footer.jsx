@@ -25,7 +25,11 @@ const Footer = () => {
             <div className='address'>
             <CiLocationOn style={{fontSize:"20px",fontWeight:"900"}}/> <p style={{fontWeight:"700",color:"red"}}>Address:</p>
             </div>
-            <p>33/9, Veeraraghavar Street, Tiruchengode, Namakkal - 637211</p>
+            {/* <p>33/9, Veeraraghavar Street, Tiruchengode, Namakkal - 637211</p> */}
+            <p>Magic Cassiao tea - 
+              D.No:38,
+              Prakasam street,
+              Opp: Taluk office, Erode - 638001</p>
           </div>
         </div>
 
@@ -41,7 +45,7 @@ const Footer = () => {
             <div className='contact'>
             <p style={{fontWeight:"700",marginBottom:"10px",color:"red"}}>Contacts</p>
               <div className='footer-nav-1'>
-                <p><IoIosCall/> Mobile: 91625213113</p>
+                <p><IoIosCall/> Mobile: +91 89033 32239</p>
                 <p><IoMailOpenOutline/> Mail: casiao@gmail.com</p>
               </div>
             </div>
@@ -71,7 +75,7 @@ const Footer = () => {
           <motion.p
           initial={{opacity:0, translateY:"15px"}}
           whileInView={{opacity:1, translateY:"0px"}}
-          transition={{duration:0.5}}>© 2025 Magic Cassiao. All rights reserved. | Designed and Developed by Magic Cassiao.</motion.p>
+          transition={{duration:0.5}} style={{marginLeft:"10px",marginRight:"10px", textAlign:"center"}}>© 2025 Magic Cassiao. All rights reserved. | Designed and Developed by Magic Cassiao.</motion.p>
         </div>
       </div>
     </>

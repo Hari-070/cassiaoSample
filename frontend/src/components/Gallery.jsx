@@ -41,7 +41,7 @@ const Gallery = ({showHero=true}) => {
         <hr style={{width:"20%", boxShadow:"0 7px 20px 1px black",height:"5px",backgroundColor:"red",borderRadius:"10px"}}></hr>
         <div style={{width:"80%"}}>
         <ResponsiveMasonry 
-          columnsCountBreakPoints={{ 900: 3, 750: 2, 450: 1}}
+          columnsCountBreakPoints={{ 900: 3, 750: 2, 450: 2}}
          >
           <Masonry gutter="10px">
           {images.map((image,i)=>(
