@@ -190,6 +190,14 @@
     padding: 10px 5px;
     color: rgb(101, 101, 101);
 }
+.home-prod-img{
+    height: 220px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 .hero-span{
     font-size: "210px";
     top: 100px;

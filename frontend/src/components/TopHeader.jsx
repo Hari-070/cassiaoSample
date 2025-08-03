@@ -12,9 +12,9 @@ const TopHeader = () => {
   return (
     <>
       <div className='topH-cont'>
-        <p><IoIosCall/> &nbsp;8787878787 / 62346623 </p>
-        <p><IoMailOpenOutline/> &nbsp;casiao@gmail.com</p>
-        <p><CiLocationOn/> &nbsp;Erode</p>
+        <p><IoIosCall style={{fontSize:"18px"}} /> &nbsp;+91 89033 32239 </p>
+        <p><IoMailOpenOutline style={{fontSize:"18px"}}/> &nbsp;casiao@gmail.com</p>
+        <p><CiLocationOn style={{fontSize:"18px"}}/> &nbsp;Erode</p>
       </div>
     </>
   )

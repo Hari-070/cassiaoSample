@@ -1,15 +1,15 @@
 [
     {
       "category": "Milk Tea",
-      "image": "https://example.com/images/milk-tea.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
     },
     {
       "category": "MCT Special",
-      "image": "https://example.com/images/mct-special.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240539/gulkand_tea_krrp6l.png"
     },
     {
       "category": "Black Tea",
-      "image": "https://example.com/images/black-tea.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240541/lemon_tea_vzjywl.png"
     },
     {
       "category": "Green Tea",

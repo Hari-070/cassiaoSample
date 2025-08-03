@@ -130,7 +130,7 @@ const Home = () => {
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
                           {data.slice(0,3).map((item)=>(
-                            <Products img={black1} name={item.category}/>
+                            <Products img={item.image} name={item.category}/>
                           ))}
                         </div>
                         <p style={{display:"flex", justifyContent:"center", alignItems:"center"}} onClick={()=>navigate('/products')}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
@@ -145,7 +145,7 @@ const Home = () => {
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
                           {data.slice(0,3).map((item)=>(
-                            <Products img={black1} name={item.category}/>
+                            <Products img={item.image} name={item.category}/>
                           ))}
                         </div>
                         <p style={{display:"flex", justifyContent:"center", alignItems:"center"}} onClick={()=>navigate('/products')}>View more &nbsp;<FaArrowRight style={{color:"red"}}/></p>
