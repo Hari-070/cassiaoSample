@@ -43,7 +43,7 @@ const Header = () => {
           <p onClick={()=>{navigate("/products");setSide(false)}}>Products</p>
       </div>:<></>}
       <div style={{display:"flex",justifyContent:"space-between",marginRight:"20px",gap:"20px"}} className='header-call-cont'>
-      <button className='header-call' onClick={()=>window.location.href="tel:6380466977"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
+      <button className='header-call' onClick={()=>window.location.href="tel:+91 89033 32239"}>Call us <IoIosCall style={{fontSize:"25px",color:"black"}}/></button>
       <IoMdMenu className='onMobileButton' style={{alignSelf:"center",fontSize:"30px"}} onClick={OpensideBar}/>
       </div>
       

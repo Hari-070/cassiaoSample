@@ -11,7 +11,7 @@ const ProductCard = (props) => {
         <div className='allProd_prod_cont'>
             {props.products.map((item)=>(
                 <div className='allProd_prodCard'>
-                    <div className='allProd_prodCard_img'><img src={item.image} alt='image' width="100%"/></div>
+                    <div className='allProd_prodCard_img'><img className='allProd_img' src={item.image} alt='image' /></div>
                     {/* <div className='allProd_prodCard_img'><img src="https://imageio.forbes.com/specials-images/imageserve/5f6c061ca71799093f55fd02/Aromatic-herbal-tea-/0x0.jpg?format=jpg&crop=5029,3354,x0,y0,safe&width=1440" alt='image' width='100%'/></div> */}
                     <div className='allProd_prodCard_details'>
                         <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>

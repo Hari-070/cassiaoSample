@@ -76,9 +76,10 @@
     /* border-radius: 8px; */
     border-top-right-radius: 20px;
 }
-.allProd_prodCard_img img{
-
+.allProd_img{
+    width: 100%;
 }
+
 .allProd_prodCard_details{
     padding: 10px;
     /* height: 55%; */
@@ -115,5 +116,18 @@
     }
     .allProd_prodCard{
         width: 90%;
+    }
+    .allProd_prodCard h1{
+        font-size: 15px;
+    }
+    .allProd_prodCard p{
+        font-size: 14px;
+    }
+    .allProd_prodCard_details_ingred span{
+        font-size: 11px;
+    }
+    .allProd_img{
+        width: auto;
+        height: 100%;
     }
 }
