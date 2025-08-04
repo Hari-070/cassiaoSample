@@ -18,6 +18,14 @@
     {
       "category": "Filter Coffee",
       "image": "https://example.com/images/filter-coffee.jpg"
+    },
+    {
+      "category":"Herbal Tea",
+      "image":"https://res.cloudinary.com/dge5zlivy/image/upload/v1754319649/Gemini_Generated_Image_3idchq3idchq3idc_pmjjs2.png"
+    },
+    {
+      "category":"Summer Delights",
+      "image":"https://res.cloudinary.com/dge5zlivy/image/upload/v1754237913/Badam_Milk_myvuxc.jpg"
     }
   ]
   

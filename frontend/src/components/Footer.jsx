@@ -9,8 +9,10 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import {motion} from 'framer-motion'
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+  const navigate=useNavigate()
   return (
     <>
     <div className='footerCopy'>
@@ -37,9 +39,12 @@ const Footer = () => {
             <div>
               <p style={{fontWeight:"700",marginBottom:"10px",color:"red"}}>Navigation</p>
               <div className='footer-nav-1'>
-                <p>Home</p>
-                <p>About us</p>
-                <p>Contact us</p>
+                <p onClick={()=>navigate('/')} style={{cursor:"pointer"}}>Home</p>
+                <p onClick={()=>navigate('/aboutUs')} style={{cursor:"pointer"}}>About us</p>
+                <p onClick={()=>navigate('/contact-us')} style={{cursor:"pointer"}}>Contact us</p>
+                <p onClick={()=>navigate('/gallery')} style={{cursor:"pointer"}}>Gallery</p>
+                <p onClick={()=>navigate('/franchise')} style={{cursor:"pointer"}}>Franchise</p>
+                <p onClick={()=>navigate('/products')} style={{cursor:"pointer"}}>Products</p>
               </div>
             </div>
             <div className='contact'>

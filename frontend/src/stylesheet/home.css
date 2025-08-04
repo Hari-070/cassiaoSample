@@ -319,10 +319,20 @@
     }
     .home-prod-cont-tea{
         height: 100vh;
+        margin-top: 10px;
         flex-direction: column;
         align-items: center;    
     }
     .home-prod-tea-title img{
         width:120%;
+    }
+    .inside_testimonial_cont{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .testimonial_card{
+        width: 80%;
     }
 }

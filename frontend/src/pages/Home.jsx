@@ -144,7 +144,7 @@ const Home = () => {
                       </div>
                       <div className='home-prod-tea'>
                         <div className='home-prod-tea-cards'>
-                          {data.slice(0,3).map((item)=>(
+                          {data.slice(5,).map((item)=>(
                             <Products img={item.image} name={item.category}/>
                           ))}
                         </div>

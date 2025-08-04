@@ -178,5 +178,59 @@
       "description": "A dark and bold black coffee brewed to perfection, offering a robust flavor without the need for milk.",
       "ingredients": ["Filter coffee beans", "Sugar"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240538/black_coffee_vb4kp8.png"
+    },
+    {
+      "name": "Sembaruthi Tea",
+      "category": "Herbal Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A floral and refreshing hibiscus tea known for its vibrant red color and tangy flavor, packed with antioxidants and a natural cooling effect.",
+      "ingredients": ["Hibiscus petals", "Green tea leaves", "Lemon", "Sugar"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318705/Gemini_Generated_Image_b9bc0wb9bc0wb9bc_m49fgm.png"
+    },
+    {
+      "name": "Tanner's Tea",
+      "category": "Herbal Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A delicate blend of herbs and flowers inspired by traditional tanner's tea, offering a citrusy and floral experience similar to lemon green tea.",
+      "ingredients": ["Tanner's cassia", "Green tea leaves", "Lemon", "Sugar"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754320035/Gemini_Generated_Image_6y4iav6y4iav6y4i_kowhld.png"
+    },
+    {
+      "name": "Grapes Tea",
+      "category": "Herbal Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A unique violet-colored tea infused with natural grape flavor, combining fruitiness with the calming essence of herbal tea.",
+      "ingredients": ["Dried grapes", "Green tea leaves", "Sugar"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318706/Gemini_Generated_Image_dw9adzdw9adzdw9a_dfgdrl.png"
+    },
+    {
+      "name": "Green Tea",
+      "category": "Herbal Tea",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A classic, soothing green tea rich in antioxidants, ideal for relaxation and everyday wellness.",
+      "ingredients": ["Green tea leaves"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754319877/Gemini_Generated_Image_3idchq3idchq3idc_ky7wpp.png"
+    },
+    {
+      "name": "Badam Milk",
+      "category": "Summer Delights",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A creamy and nutritious almond milk beverage, flavored with cardamom and saffron for a royal treat.",
+      "ingredients": ["Milk", "Almonds", "Sugar", "Cardamom", "Saffron"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237913/Badam_Milk_myvuxc.jpg"
+    },
+    {
+      "name": "Rose Milk",
+      "category": "Summer Delights",
+      "regular_price": 10,
+      "large_price": 20,
+      "description": "A sweet and fragrant milk drink infused with rose syrup, perfect for a refreshing cool-down.",
+      "ingredients": ["Milk", "Rose syrup", "Sugar"],
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/Rose_Milk_d9r3hv.jpg"
     }
   ]

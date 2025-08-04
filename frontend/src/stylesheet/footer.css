@@ -112,9 +112,12 @@
 }
 
 @media(max-width: 450px){
+    .footerCopy{
+        height: 75vh;
+    }
     .footer-cont{
         flex-direction: column;
-        height: 60vh;
+        height: 63vh;
         gap: 40px;
         overflow: hidden;
         padding-bottom: 10px;
@@ -141,6 +144,7 @@
     .footer-about{
         flex-direction: row;
         font-size: 15px;
+        margin-bottom: 60px;
         width: 100%;
     }
     .footer-about-1{
@@ -149,8 +153,6 @@
     }
     .social{
         margin-right: 10px;
-    }
-    .copyrightSec{
     }
     
 }
