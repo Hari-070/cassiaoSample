@@ -33,7 +33,7 @@
       "large_price": 20,
       "description": "A unique blend of milk tea with sweet rose petal jam (Gulkand), perfect for a soothing and floral experience.",
       "ingredients": ["Black tea", "Gulkand (rose petal jam)", "Milk", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240539/gulkand_tea_krrp6l.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754330904/gulkandFinal_h6hl4s.png"
     },
     {
       "name": "MCT Plain",
@@ -42,7 +42,7 @@
       "large_price": 20,
       "description": "A simple yet bold MCT beverage, offering a clean taste and a boost of energy to keep you refreshed.",
       "ingredients": ["MCT oil", "Coffee", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237913/Black_Tea_kef5fz.jpg"
     },
     {
       "name": "MCT Milk",
@@ -63,7 +63,7 @@
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
     },
     {
-      "name": "Black Tea",
+      "name": "Black Plain Tea",
       "category": "Black Tea",
       "regular_price": 10,
       "large_price": 20,
@@ -99,13 +99,13 @@
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/Ginger_Lemon_uvclew.jpg"
     },
     {
-      "name": "Plain Tea",
+      "name": "Green Tea",
       "category": "Green Tea",
       "regular_price": 10,
       "large_price": 20,
-      "description": "A light and soothing green tea with a subtle grassy flavor, perfect for relaxation and rejuvenation.",
+      "description": "A classic, soothing green tea rich in antioxidants, ideal for relaxation and everyday wellness.",
       "ingredients": ["Green tea leaves"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754319877/Gemini_Generated_Image_3idchq3idchq3idc_ky7wpp.png"
     },
     {
       "name": "Lemon Grass Tea",
@@ -132,7 +132,7 @@
       "large_price": 20,
       "description": "A fragrant mix of green tea and lemon tulasi, providing an aromatic and herbal experience that's both calming and energizing.",
       "ingredients": ["Green tea leaves", "Lemon tulasi leaves"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754324010/Gemini_Generated_Image_d4d07ed4d07ed4d0_exn4up.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754330904/lemonTulsi_htimsl.png"
     },
     {
       "name": "Blue Tea",
@@ -140,7 +140,7 @@
       "regular_price": 10,
       "large_price": 20,
       "description": "A vibrant blue tea made from butterfly pea flower and green tea, offering a visually stunning and refreshing taste.",
-      "ingredients": ["Green tea leaves", "Butterfly pea flower"],
+      "ingredients": ["Butterfly pea flower"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240538/blue_tea_tl0ryt.png"
     },
     {
@@ -167,7 +167,7 @@
       "regular_price": 10,
       "large_price": 20,
       "description": "A floral and refreshing hibiscus tea known for its vibrant red color and tangy flavor, packed with antioxidants and a natural cooling effect.",
-      "ingredients": ["Hibiscus petals", "Green tea leaves", "Lemon", "Sugar"],
+      "ingredients": ["Hibiscus petals", "Lemon", "Sugar"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318705/Gemini_Generated_Image_b9bc0wb9bc0wb9bc_m49fgm.png"
     },
     {
@@ -176,7 +176,7 @@
       "regular_price": 10,
       "large_price": 20,
       "description": "A delicate blend of herbs and flowers inspired by traditional tanner's tea, offering a citrusy and floral experience similar to lemon green tea.",
-      "ingredients": ["Tanner's cassia", "Green tea leaves", "Lemon", "Sugar"],
+      "ingredients": ["Tanner's cassia", "Lemon", "Sugar"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754320035/Gemini_Generated_Image_6y4iav6y4iav6y4i_kowhld.png"
     },
     {
@@ -185,17 +185,8 @@
       "regular_price": 10,
       "large_price": 20,
       "description": "A unique violet-colored tea infused with natural grape flavor, combining fruitiness with the calming essence of herbal tea.",
-      "ingredients": ["Dried grapes", "Green tea leaves", "Sugar"],
+      "ingredients": ["Dried grapes", "Sugar"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318706/Gemini_Generated_Image_dw9adzdw9adzdw9a_dfgdrl.png"
-    },
-    {
-      "name": "Green Tea",
-      "category": "Herbal Tea",
-      "regular_price": 10,
-      "large_price": 20,
-      "description": "A classic, soothing green tea rich in antioxidants, ideal for relaxation and everyday wellness.",
-      "ingredients": ["Green tea leaves"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754319877/Gemini_Generated_Image_3idchq3idchq3idc_ky7wpp.png"
     },
     {
       "name": "Badam Milk",
