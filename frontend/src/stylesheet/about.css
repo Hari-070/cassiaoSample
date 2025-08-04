@@ -12,7 +12,7 @@
     align-items: center;
     width: 80%;
     font-size: 17px;
-    height: 60vh;
+    height: 65vh;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.458) 0px 4px 20px 0px;
     /* box-shadow: rgba(255, 255, 255, 0.458) 0px 4px 20px 0px; */
@@ -111,7 +111,7 @@
         overflow: hidden;
     }
     .about-service-img img{
-        width: 350px;
+        width: 250px;
     }
     .about-service-desc{
         height: 50%;

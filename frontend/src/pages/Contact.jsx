@@ -16,7 +16,8 @@ const Contact = () => {
         <h1>Contact Us</h1>
         <p style={{color:"red"}}>The Magic lies in the Taste</p>
       </div>
-
+  
+        <Franchise/>
         {/* Contact Section */}
         <section className="contact-section">
           <div className="contact-container">
@@ -74,7 +75,7 @@ const Contact = () => {
               
             </div>
 
-            {/* <div className="contact-right">
+            <div className="contact-right" style={{color:"black"}}>
               <div className='contact-right-inside'>
                 <div className='contact-right-title'>
                   <h2 className="cta-title">Ready to Get Started?</h2>
@@ -93,13 +94,9 @@ const Contact = () => {
                 <hr style={{width:"50%",border:"1px solid red"}}></hr>
                 <p className='cta-desc'>By contacting us, you'll receive detailed information about our franchise opportunity and guidance throughout the process.</p>
               </div>
-            </div> */}
-            
-            
-            
+            </div>
           </div>
         </section>
-      <Franchise/>
       
     </div>
   )

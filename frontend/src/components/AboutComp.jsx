@@ -1,5 +1,5 @@
 import React from 'react'
-import teaPic from '../assets/p5.png'
+import teaPic from '../assets/p6.png'
 // import teaPic from '../assets/teaPic.jpg'
 import '../stylesheet/about.css'
 import {motion} from 'framer-motion'
@@ -22,7 +22,7 @@ const AboutComp = () => {
                   {/* <h1><span style={{color:"red"}}>Feel</span> The Magic</h1>   */}
                   <img src={feel} alt='magic '/>
                   <hr style={{width:"50%",backgroundColor:"black",height:"1px"}}></hr>
-                  <p>At Magic Cassiao, we believe that every sip of tea should be a magical experience, a blend of tradition and innovation that delights your senses. Since our journey began in March 2020, our mission has been to craft the finest tea experiences that bring joy and warmth to every cup.<br/><br/>Our first store was proudly launched in Erode, where we introduced the community to the unique flavors and aromas of our carefully curated teas. Today, Magic Cassiao is rapidly expanding across Tamil Nadu, bringing our passion for quality and taste to every corner of the state.<br/><br/>What sets us apart is our relentless pursuit of excellence. We source the finest tea leaves from the most renowned tea gardens across India, ensuring that each blend carries the essence of its origin. Our teas are not just beverages; they are journeys of discovery, offering a rich palette of flavors that cater to every mood and moment.</p>
+                  <p>At Magic Cassiao, we believe that every sip of tea should be a magical experience, a blend of tradition and innovation that delights your senses. Since our journey began in October 2020, our mission has been to craft the finest tea experiences that bring joy and warmth to every cup.<br/><br/>Our first store was proudly launched in Erode, where we introduced the community to the unique flavors and aromas of our carefully curated teas. Today, Magic Cassiao is rapidly expanding across Tamil Nadu, bringing our passion for quality and taste to every corner of the state.<br/><br/>What sets us apart is our relentless pursuit of excellence. We source the finest tea leaves from the most renowned tea gardens across India, ensuring that each blend carries the essence of its origin. Our teas are not just beverages; they are journeys of discovery, offering a rich palette of flavors that cater to every mood and moment.</p>
                 </div>
                 <p style={{position:"absolute",right:"8%",bottom:"3%",fontFamily:"smooch",fontSize:"20px"}}>-Magic Cassiao</p>
                 

@@ -26,7 +26,7 @@
 }
 .footer-logo img{
     /* border-radius: 50%; */
-    width: 300px;
+    width: 150px;
 }
 .footer-logo h1{
     font-size:50px;
@@ -43,7 +43,7 @@
     justify-content: space-around;
     align-items: flex-start;
     margin-left: 20px;
-    width: 50%;
+    width: 70%;
 }
 .address{
     display: flex;
@@ -56,6 +56,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin-left: 40px;
+    width: 30%;
 }
 
 .footer-nav{
@@ -136,6 +137,7 @@
         flex-direction: row;
         margin-left: 10px;
         gap: 20px;
+        width: 100%;
     }
     .footer-nav{
         flex-direction: row;

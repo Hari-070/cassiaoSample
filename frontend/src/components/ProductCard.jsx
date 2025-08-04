@@ -18,10 +18,10 @@ const ProductCard = (props) => {
                             <h1 style={{color:"black"}}>{item.name}</h1>
                             <p>{item.description}</p>
                         </div>
-                        <div className='allProd_prodCard_details_price'>
+                        {/* <div className='allProd_prodCard_details_price'>
                             <div><p >Regular:</p><p style={{color:"black"}}>₹{item.regular_price}</p></div>
                             <div><p >Large:</p><p style={{color:"black"}}>₹{item.large_price}</p></div>
-                        </div>
+                        </div> */}
                         <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
                             <h1 style={{fontSize:"15px"}}>Ingredients</h1>
                             <div className='allProd_prodCard_details_ingred'>{item.ingredients.map((i)=>(

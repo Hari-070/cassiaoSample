@@ -54,24 +54,6 @@
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237914/Milk_uwxqtz.jpg"
     },
     {
-      "name": "MCT Extra",
-      "category": "MCT Special",
-      "regular_price": 10,
-      "large_price": 20,
-      "description": "A potent mix of MCT oil with an extra kick of coffee, giving you maximum energy and a smooth finish.",
-      "ingredients": ["MCT oil", "Coffee", "Milk", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
-    },
-    {
-      "name": "MCT Express",
-      "category": "MCT Special",
-      "regular_price": 10,
-      "large_price": 20,
-      "description": "A fast-acting MCT beverage with an energizing blend that helps you power through your day with ease.",
-      "ingredients": ["MCT oil", "Espresso", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
-    },
-    {
       "name": "MCT Double",
       "category": "MCT Special",
       "regular_price": 10,
@@ -150,11 +132,11 @@
       "large_price": 20,
       "description": "A fragrant mix of green tea and lemon tulasi, providing an aromatic and herbal experience that's both calming and energizing.",
       "ingredients": ["Green tea leaves", "Lemon tulasi leaves"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/Green_Tea_cuhfpg.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754324010/Gemini_Generated_Image_d4d07ed4d07ed4d0_exn4up.png"
     },
     {
-      "name": "Blue Green Tea",
-      "category": "Green Tea",
+      "name": "Blue Tea",
+      "category": "Herbal Tea",
       "regular_price": 10,
       "large_price": 20,
       "description": "A vibrant blue tea made from butterfly pea flower and green tea, offering a visually stunning and refreshing taste.",

@@ -1,6 +1,6 @@
 import React from 'react'
 // import logo from '../assets/logo.png'
-import logo from '../assets/logo4.png'
+import logo from '../assets/logoFinal.png'
 import { CiLocationOn } from "react-icons/ci";
 import '../stylesheet/footer.css'
 import { IoIosCall } from "react-icons/io";
