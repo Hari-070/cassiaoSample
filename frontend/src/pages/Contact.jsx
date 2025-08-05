@@ -3,8 +3,10 @@ import Franchise from '../components/Franchise'
 import '../stylesheet/contact.css'
 import "../stylesheet/franchiseDetails.css"
 import { IndianRupee, Users, BarChart, ShoppingBag, Headphones, Store, Award, TrendingUp, Coffee, Target } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
+  const navigate=useNavigate()
 
    useEffect(()=>{
       window.scrollTo(0,0)
@@ -30,7 +32,7 @@ const Contact = () => {
               <div className="contact-info">
                 <div className="info-item">
                   <Store className="info-icon" />
-                  <div>
+                  <div className='info-desc'>
                     <h3>Visit Our Flagship Store</h3>
                     <p className="contact-description">Magic Cassiao tea - D.No:38, Prakasam street, Opp: Taluk office, Erode - 638001</p>
                   </div>
@@ -44,7 +46,7 @@ const Contact = () => {
                 </div> */}
                 <div className="info-item">
                   <Headphones className="info-icon" />
-                  <div>
+                  <div className='info-desc'>
                     <h3>Contact Number</h3>
                     <p className="contact-title1" style={{marginTop:"12px"}}>89033 32239</p>
                   </div>
@@ -89,7 +91,7 @@ const Contact = () => {
                   <div className='next-step-ele'><p className='next-step-num'>4</p><p>Begin your success journey</p></div>
                 </div>
 
-                <button className="cta-button1" onClick={()=>{navigate("/contact-us")}}>Contact Us Now</button>
+                <button className="cta-button1"  onClick={()=>{navigate("/contact-us")}}>Contact Us Now</button>
                 <button className="cta-button2" style={{cursor:"pointer"}} onClick={()=>navigate("/products")}>View Our Products</button>
                 <hr style={{width:"50%",border:"1px solid red"}}></hr>
                 <p className='cta-desc'>By contacting us, you'll receive detailed information about our franchise opportunity and guidance throughout the process.</p>

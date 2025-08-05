@@ -316,21 +316,21 @@ const Franchise = () => {
             <div className="contact-info">
               <div className="info-item">
                 <Store className="info-icon" />
-                <div>
+                <div className='info-desc'>
                   <h3>Visit Our Flagship Store</h3>
                   <p className="contact-description">Magic Cassiao tea - D.No:38, Prakasam street, Opp: Taluk office, Erode - 638001</p>
                 </div>
               </div>
-              <div className="info-item">
-                {/* <Coffee className="info-icon" />
+              {/* <div className="info-item">
+                <Coffee className="info-icon" />
                 <div>
                   <h3>Business Hours</h3>
                   <p className="contact-description">Monday - Sunday: 9:00 AM - 10:00 PM</p>
-                </div> */}
-              </div>
+                </div>
+              </div> */}
               <div className="info-item">
                 <Headphones className="info-icon" />
-                <div>
+                <div className='info-desc'>
                   <h3>Contact Number</h3>
                   <p className="contact-title1" style={{marginTop:"12px"}}>89033 32239</p>
                 </div>

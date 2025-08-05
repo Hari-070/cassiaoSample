@@ -389,6 +389,9 @@
     align-items: center;
     margin-bottom: 15px;
   }
+  .info-desc{
+    width: 70%;
+  }
   
   .info-icon {
     font-size: 2rem;
