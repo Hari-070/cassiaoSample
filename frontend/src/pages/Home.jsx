@@ -83,7 +83,7 @@ const Home = () => {
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire Now</button>
               </motion.div>
               <div className='home-hero-boxf3'>
-                <span style={{color:"rgb(210,0,0)",fontSize:"17px",fontWeight:"700"}}><span style={{color:"white"}}>The</span> Magic Begins with Every Drop of Lemon Syrup &nbsp; </span>
+                <span style={{color:"rgb(210,0,0)",fontSize:"17px",fontWeight:"700"}}><span style={{color:"white", fontWeight:"500"}}>The</span> Magic Begins with Every Drop of Lemon Syrup &nbsp; </span>
                   <TypingAnimation/>
               </div>
               
