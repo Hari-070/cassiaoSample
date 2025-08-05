@@ -51,7 +51,7 @@
     position: absolute;
     width: 40%;
     right: 10px;
-    bottom: 40%;
+    bottom: 23%;
     background-color: rgba(255, 255, 255, 0.196);
     backdrop-filter: blur(10px);
     padding: 20px 30px;
@@ -287,7 +287,10 @@
         font-family:"Bonheur Royale",'Times New Roman', Times, serif;
     }
     .home-hero-boxf3{
-        width: 90%;
+        width: 80%;
+        bottom: 2%;
+        font-size: 17px;
+        font-weight: 400;
     }
     .home-hero-boxf2{
         width: 80%;
