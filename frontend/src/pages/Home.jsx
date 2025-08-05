@@ -15,7 +15,8 @@ import black6 from '../assets/black6.jpeg'
 import black7 from '../assets/black7.jpeg'
 import SimpleForm from '../SimpleForm'
 import Franchise from '../components/Franchise' 
-import coffeeVideo from '../assets/coffee background.mp4'
+import coffeeVideo from '../assets/magicVid.mp4'
+// import coffeeVideo from '../assets/coffee background.mp4'
 import Products from '../components/Products'
 import AboutComp from '../components/AboutComp'
 import Gallery from '../components/Gallery'
@@ -60,12 +61,12 @@ const Home = () => {
     <>
         {/* <div className='home'> */}
             <div  className='home-hero'>
-              {/* <div className='home-vid'>
-                  <video ref={videoRef} onTimeUpdate={handleTimeUpdate} autoPlay loop muted className='back-vid'>
+              <div className='home-vid'>
+                  <video ref={videoRef} autoPlay loop muted className='back-vid'>
                     <source src={coffeeVideo} type='video/mp4'/>
                   </video>
               </div>
-              <div className='home-overlay'></div> */}
+              <div className='home-overlay'></div>
               {/* <div className='home-hero-boxf'>
                 <h1>Magic <span style={{color:"red"}}>Cassiao</span></h1>
                 <h1 style={{color:"red",alignSelf:"center",display:"flex"}}>-Tea</h1>
@@ -94,7 +95,7 @@ const Home = () => {
             {/* video component */}
             <VideoComponent/>
 
-            
+
             <AboutComp/>
 
             

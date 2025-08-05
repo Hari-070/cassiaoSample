@@ -256,7 +256,7 @@ const Franchise = () => {
                   
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Customer Name</h4>
+                  <h4 className="story-name">Subramani</h4>
                   <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>
@@ -274,7 +274,7 @@ const Franchise = () => {
                   
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Customer Name</h4>
+                  <h4 className="story-name">Ragaventhiran</h4>
                   <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>
@@ -291,7 +291,7 @@ const Franchise = () => {
                   className="story-avatar"
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Customer Name</h4>
+                  <h4 className="story-name">Sneha</h4>
                   <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>

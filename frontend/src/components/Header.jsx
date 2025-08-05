@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../stylesheet/header.css'
-import logo from '../assets/logoFinal.png'
+import logo from '../assets/logoFinal2.png'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { IoIosCall, IoMdMenu, IoMdClose } from "react-icons/io";
 import TopHeader from './TopHeader';
