@@ -10,6 +10,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import {motion} from 'framer-motion'
 import { useNavigate } from 'react-router-dom';
+import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   const navigate=useNavigate()
@@ -25,7 +26,7 @@ const Footer = () => {
           </div>
           <div className='footer-addr'>
             <div className='address'>
-            <CiLocationOn style={{fontSize:"20px",fontWeight:"900"}}/> <p style={{fontWeight:"700",color:"red"}}>Address:</p>
+            <FaLocationDot style={{fontSize:"15px",fontWeight:"900", color:"rgb(255, 130, 0)"}}/> <p style={{fontWeight:"700",color:"red"}}>Address:</p>
             </div>
             {/* <p>33/9, Veeraraghavar Street, Tiruchengode, Namakkal - 637211</p> */}
             <p>Magic Cassiao tea - 
@@ -51,7 +52,7 @@ const Footer = () => {
             <p style={{fontWeight:"700",marginBottom:"10px",color:"red"}}>Contacts</p>
               <div className='footer-nav-1'>
                 <p><IoIosCall/> Mobile: +91 89033 32239</p>
-                <p><IoMailOpenOutline/> Mail: casiao@gmail.com</p>
+                {/* <p><IoMailOpenOutline/> Mail: casiao@gmail.com</p> */}
               </div>
             </div>
         </div>

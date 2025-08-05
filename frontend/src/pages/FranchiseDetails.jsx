@@ -107,8 +107,8 @@ const Franchise = () => {
                 <Store className="investment-icon" />
                 <h3 className="investment-title">Total Setup Cost</h3>
               </div>
-              <p className="investment-amount">₹4,99,000</p>
-              <p className="investment-description">For a 100 Sqft store</p>
+              <p className="investment-amount"> ₹6,48,000</p>
+              <p className="investment-description">For a 100 Sqft store. (₹1,49,000 + ₹4,99,000)</p>
             </div>
             </div>
 
@@ -250,53 +250,53 @@ const Franchise = () => {
             <div className="story-item">
               <div className="story-header">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+                  src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?t=st=1754406980~exp=1754410580~hmac=6adc27e17f8275ab092af2a7d92617e76bbcbca61b03834b93b9c27f2e0939f7&w=1480"
                   alt="Franchisee"
                   className="story-avatar"
                   
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Rajesh Kumar</h4>
-                  <p className="story-location">Mumbai Franchise</p>
+                  <h4 className="story-name">Customer Name</h4>
+                  <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>
               <p className="story-quote">
-                "Starting a Magic Cassiao Tea franchise was the best business decision I made. The support and systems in place helped me achieve profitability within 4 months."
+                "Starting a Magic Cassiao Tea franchise was the best business decision I made. The support and systems in place helped me achieve profitability within months."
               </p>
             </div>
 
             <div className="story-item">
               <div className="story-header">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+                  src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?t=st=1754406980~exp=1754410580~hmac=6adc27e17f8275ab092af2a7d92617e76bbcbca61b03834b93b9c27f2e0939f7&w=1480"
                   alt="Franchisee"
                   className="story-avatar"
                   
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Priya Sharma</h4>
-                  <p className="story-location">Delhi Franchise</p>
+                  <h4 className="story-name">Customer Name</h4>
+                  <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>
               <p className="story-quote">
-              "The comprehensive training and ongoing support from MCT helped me establish a successful business with consistent growth."
+              "The comprehensive and ongoing support from MCT helped me establish a successful business with consistent growth."
               </p>
             </div>
 
             <div className="story-item">
               <div className="story-header">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80"
+                  src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?t=st=1754406980~exp=1754410580~hmac=6adc27e17f8275ab092af2a7d92617e76bbcbca61b03834b93b9c27f2e0939f7&w=1480"
                   alt="Franchisee"
                   className="story-avatar"
                 />
                 <div className="story-info">
-                  <h4 className="story-name">Anita Patel</h4>
-                  <p className="story-location">Bangalore Franchise</p>
+                  <h4 className="story-name">Customer Name</h4>
+                  <p className="story-location">Tamil Nadu Franchise</p>
                 </div>
               </div>
               <p className="story-quote">
-              "The brand's reputation for quality and the unique menu offerings have helped me build a loyal customer base."
+              "The brand's quality and the unique menu offerings have helped me build a loyal customer base."
               </p>
             </div>
             
@@ -318,15 +318,15 @@ const Franchise = () => {
                 <Store className="info-icon" />
                 <div>
                   <h3>Visit Our Flagship Store</h3>
-                  <p className="contact-description">123 Tea Street, Flavor District, Metro Manila</p>
+                  <p className="contact-description">Magic Cassiao tea - D.No:38, Prakasam street, Opp: Taluk office, Erode - 638001</p>
                 </div>
               </div>
               <div className="info-item">
-                <Coffee className="info-icon" />
+                {/* <Coffee className="info-icon" />
                 <div>
                   <h3>Business Hours</h3>
                   <p className="contact-description">Monday - Sunday: 9:00 AM - 10:00 PM</p>
-                </div>
+                </div> */}
               </div>
               <div className="info-item">
                 <Headphones className="info-icon" />
@@ -342,7 +342,7 @@ const Franchise = () => {
               <div className='quick-facts-box'>
                 <div className='quick-facts'>
                   <p>Investment</p>
-                  <h3 className="contact-title1">₹4,99,000</h3>
+                  <h3 className="contact-title1"> ₹6,48,000</h3>
                 </div>
                 <div className='quick-facts'>
                   <p>ROI Period</p>

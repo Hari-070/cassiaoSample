@@ -32,16 +32,16 @@ const Contact = () => {
                   <Store className="info-icon" />
                   <div>
                     <h3>Visit Our Flagship Store</h3>
-                    <p className="contact-description">123 Tea Street, Flavor District, Metro Manila</p>
+                    <p className="contact-description">Magic Cassiao tea - D.No:38, Prakasam street, Opp: Taluk office, Erode - 638001</p>
                   </div>
                 </div>
-                <div className="info-item">
+                {/* <div className="info-item">
                   <Coffee className="info-icon" />
                   <div>
                     <h3>Business Hours</h3>
                     <p className="contact-description">Monday - Sunday: 9:00 AM - 10:00 PM</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="info-item">
                   <Headphones className="info-icon" />
                   <div>
@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className='quick-facts-box'>
                   <div className='quick-facts'>
                     <p>Investment</p>
-                    <h3 className="contact-title1">₹4,99,000</h3>
+                    <h3 className="contact-title1"> ₹6,48,000</h3>
                   </div>
                   <div className='quick-facts'>
                     <p>ROI Period</p>

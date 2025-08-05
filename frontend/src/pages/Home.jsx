@@ -91,10 +91,13 @@ const Home = () => {
                 </motion.div> */}
             </div>
             
-            <AboutComp/>
-
             {/* video component */}
             <VideoComponent/>
+
+            
+            <AboutComp/>
+
+            
 
             {/* products */}
             <div className='product-hero'>

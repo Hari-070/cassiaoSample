@@ -54,15 +54,6 @@
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237914/Milk_uwxqtz.jpg"
     },
     {
-      "name": "MCT Double",
-      "category": "MCT Special",
-      "regular_price": 10,
-      "large_price": 20,
-      "description": "A double shot of MCT oil and coffee for the ultimate energy boost. Feel refreshed and ready to tackle anything.",
-      "ingredients": ["MCT oil", "Coffee", "Espresso", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359863/MCT-Milk_dw0skb.jpg"
-    },
-    {
       "name": "Black Plain Tea",
       "category": "Black Tea",
       "regular_price": 10,
