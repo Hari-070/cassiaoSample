@@ -11,6 +11,7 @@
     background-size: cover;
     display: flex;
     justify-content: flex-start;
+    gap: 40px;
     align-items: center;
     /* font-family: "Protest Guerrilla"; */
 }
@@ -37,7 +38,7 @@
     backdrop-filter: blur(10px);
     padding: 20px 30px;
     border-radius: 10px;
-    margin-left: 15%;
+    margin-left: 10%;
     width: 30%;
     height: 50vh;
     display: flex;
@@ -45,6 +46,11 @@
     justify-content: space-around;
     align-items: flex-start;
     font-size: 18px;
+}
+.home-hero-boxf3{
+    width: 30%;
+    font-size: 20px;
+    font-weight: 600;
 }
 .home-hero-boxf2 h1{
     font-size: 40px;
@@ -273,11 +279,14 @@
     .home-hero-boxf span{
         font-family:"Bonheur Royale",'Times New Roman', Times, serif;
     }
+    .home-hero-boxf3{
+        width: 90%;
+    }
     .home-hero-boxf2{
         width: 80%;
         padding: 5px 1px 5px 20px;
         margin-left: 10px;
-        margin-top: 30%;
+        /* margin-top: 30%; */
     }
     .home-hero-boxf2 h1{
         font-size: 20px;
