@@ -26,6 +26,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom'
 import VideoComponent from '../components/VideoComponent'
+import TypingAnimation from '../components/TypingComponent'
 
 const Home = () => {
   const navigate=useNavigate()
@@ -78,7 +79,8 @@ const Home = () => {
                className='home-hero-boxf2'>
                 <p style={{fontFamily:"Italianno",color:"rgb(255,255,255)",fontSize:"200%",fontWeight:"400"}}>Introducing</p>
                 <h1 style={{fontFamily:"Montserrat",fontWeight:"550"}}><span style={{color:"rgb(190, 0, 0)",fontFamily:"Montserrat",fontWeight:"580"}}>Magic </span>Cassiao Tea</h1>
-                <p style={{fontSize:"15px"}}>At Magic Cassiao, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p>
+                {/* <p style={{fontSize:"15px"}}>At Magic Cassiao, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p> */}
+                <TypingAnimation/>
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire Now</button>
               </motion.div>
                 {/* <motion.div
@@ -92,6 +94,7 @@ const Home = () => {
                 </motion.div> */}
             </div>
             
+            {/* <TypingAnimation/> */}
             {/* video component */}
             <VideoComponent/>
 

@@ -9,7 +9,7 @@ const VideoComponent = () => {
       <div className="video-content">
         <div className="video-text">
           <h2>The Magic Behind the Cup</h2>
-          <p>
+          {/* <p>
             The <strong>Magic</strong> Begins with Every Drop of Lemon Syrup
             A single drop awakens the spell —
             golden sunlight swirling into bloom,
@@ -20,7 +20,8 @@ const VideoComponent = () => {
             We conjure wonder —
             where flavor dances,
             and nature's beauty performs before your eyes.
-          </p>
+          </p> */}
+          <p >At <strong>Magic Cassiao</strong>, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p>
         </div>
         <div className="video-wrapper">
           {/* <video controls autoPlay loop muted className="video-element">

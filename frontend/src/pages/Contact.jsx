@@ -56,7 +56,7 @@ const Contact = () => {
                 <div className='quick-facts-box'>
                   <div className='quick-facts'>
                     <p>Investment</p>
-                    <h3 className="contact-title1"> ₹6,48,000</h3>
+                    <h3 className="contact-title1"> ₹6,49,000</h3>
                   </div>
                   <div className='quick-facts'>
                     <p>ROI Period</p>

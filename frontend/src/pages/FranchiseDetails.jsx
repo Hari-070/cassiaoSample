@@ -107,8 +107,8 @@ const Franchise = () => {
                 <Store className="investment-icon" />
                 <h3 className="investment-title">Total Setup Cost</h3>
               </div>
-              <p className="investment-amount"> ₹6,48,000</p>
-              <p className="investment-description">For a 100 Sqft store. (₹1,49,000 + ₹4,99,000)</p>
+              <p className="investment-amount"> ₹6,49,000</p>
+              <p className="investment-description">For a 100 Sqft store. (₹1,49,000 + ₹5,00,000)</p>
             </div>
             </div>
 
