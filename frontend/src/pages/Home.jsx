@@ -78,11 +78,12 @@ const Home = () => {
                transition={{duration:0.5}}
                className='home-hero-boxf2'>
                 <p style={{fontFamily:"Italianno",color:"rgb(255,255,255)",fontSize:"200%",fontWeight:"400"}}>Introducing</p>
-                <h1 style={{fontFamily:"Montserrat",fontWeight:"550"}}><span style={{color:"rgb(190, 0, 0)",fontFamily:"Montserrat",fontWeight:"580"}}>Magic </span>Cassiao Tea</h1>
+                <h1 style={{fontFamily:"Montserrat",fontWeight:"550"}}><span style={{color:"rgb(210, 0, 0)",fontFamily:"Montserrat",fontWeight:"580"}}>Magic </span>Cassiao Tea</h1>
                 <p style={{fontSize:"15px"}}>At Magic Cassiao, we’re more than just a tea franchise. We are a community of tea lovers dedicated to providing not only the best tea but also the healthiest options. Our teas are crafted with care, ensuring that each cup is a perfect balance of flavor, purity, and wellness.</p>
                 <button className='hero-button' onClick={()=>document.getElementById('franchise').scrollIntoView({behavior:'smooth'})}>Enquire Now</button>
               </motion.div>
               <div className='home-hero-boxf3'>
+                <span style={{color:"rgb(220,0,0)",fontSize:"17px"}}>The Magic Begins with Every Drop of Lemon Syrup &nbsp; </span>
                   <TypingAnimation/>
               </div>
               
