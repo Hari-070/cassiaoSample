@@ -24,6 +24,7 @@ import data from '../assets/categories.json'
 import { FaArrowRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom'
+import VideoComponent from '../components/VideoComponent'
 
 const Home = () => {
   const navigate=useNavigate()
@@ -91,6 +92,9 @@ const Home = () => {
             </div>
             
             <AboutComp/>
+
+            {/* video component */}
+            <VideoComponent/>
 
             {/* products */}
             <div className='product-hero'>

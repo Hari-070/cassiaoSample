@@ -96,7 +96,7 @@
       "large_price": 20,
       "description": "A perfect combination of ginger and lemon in a robust black tea, offering a warm, spicy, and citrusy sensation.",
       "ingredients": ["Black tea", "Ginger", "Lemon", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359809/Black_Ginger_ggfjmn.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754401125/Ginger_Lemon_vklnpb.jpg"
     },
     {
       "name": "Green Tea",
@@ -141,7 +141,7 @@
       "large_price": 20,
       "description": "A vibrant blue tea made from butterfly pea flower and green tea, offering a visually stunning and refreshing taste.",
       "ingredients": ["Butterfly pea flower"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240538/blue_tea_tl0ryt.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754401134/Blue_Tea_vxnpxh.jpg"
     },
     {
       "name": "Filter Coffee",
@@ -168,7 +168,7 @@
       "large_price": 20,
       "description": "A floral and refreshing hibiscus tea known for its vibrant red color and tangy flavor, packed with antioxidants and a natural cooling effect.",
       "ingredients": ["Hibiscus petals", "Lemon", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318705/Gemini_Generated_Image_b9bc0wb9bc0wb9bc_m49fgm.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754401132/Sembaruthi_Tea_gxmop3.jpg"
     },
     {
       "name": "Tanner's Tea",
@@ -177,7 +177,7 @@
       "large_price": 20,
       "description": "A delicate blend of herbs and flowers inspired by traditional tanner's tea, offering a citrusy and floral experience similar to lemon green tea.",
       "ingredients": ["Tanner's cassia", "Lemon", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754320035/Gemini_Generated_Image_6y4iav6y4iav6y4i_kowhld.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754401142/Aavaram_Poo_fw9x9i.jpg"
     },
     {
       "name": "Grapes Tea",
@@ -186,7 +186,7 @@
       "large_price": 20,
       "description": "A unique violet-colored tea infused with natural grape flavor, combining fruitiness with the calming essence of herbal tea.",
       "ingredients": ["Dried grapes", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754318706/Gemini_Generated_Image_dw9adzdw9adzdw9a_dfgdrl.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754401141/Grape_Tea_tfuoto.jpg"
     },
     {
       "name": "Badam Milk",
