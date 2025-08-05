@@ -42,7 +42,7 @@
       "large_price": 20,
       "description": "A simple yet bold MCT beverage, offering a clean taste and a boost of energy to keep you refreshed.",
       "ingredients": ["MCT oil", "Coffee", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237913/Black_Tea_kef5fz.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359862/MCT-Plain_qkkpzi.jpg"
     },
     {
       "name": "MCT Milk",
@@ -60,7 +60,7 @@
       "large_price": 20,
       "description": "A double shot of MCT oil and coffee for the ultimate energy boost. Feel refreshed and ready to tackle anything.",
       "ingredients": ["MCT oil", "Coffee", "Espresso", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/N-Tea_tdzf3v.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359863/MCT-Milk_dw0skb.jpg"
     },
     {
       "name": "Black Plain Tea",
@@ -87,7 +87,7 @@
       "large_price": 20,
       "description": "A unique infusion of coriander seeds with black tea, giving you a fragrant and health-boosting brew.",
       "ingredients": ["Black tea", "Coriander seeds", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754241665/coriander_tea_ig4njx.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359831/Coriander_Tea_vchvft.jpg"
     },
     {
       "name": "Ginger + Lemon Tea",
@@ -96,7 +96,7 @@
       "large_price": 20,
       "description": "A perfect combination of ginger and lemon in a robust black tea, offering a warm, spicy, and citrusy sensation.",
       "ingredients": ["Black tea", "Ginger", "Lemon", "Sugar"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/Ginger_Lemon_uvclew.jpg"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359809/Black_Ginger_ggfjmn.jpg"
     },
     {
       "name": "Green Tea",
@@ -150,7 +150,7 @@
       "large_price": 20,
       "description": "A traditional South Indian filter coffee that's rich, strong, and full of flavor, perfect for any time of the day.",
       "ingredients": ["Filter coffee beans", "Sugar", "Milk"],
-      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754240538/coffee_ccqr1m.png"
+      "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359843/Chocolate_Coffee_ejtejc.jpg"
     },
     {
       "name": "Filter Black Coffee",
@@ -205,5 +205,96 @@
       "description": "A sweet and fragrant milk drink infused with rose syrup, perfect for a refreshing cool-down.",
       "ingredients": ["Milk", "Rose syrup", "Sugar"],
       "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754237915/Rose_Milk_d9r3hv.jpg"
-    }
+    },
+
+    {
+    "name": "Masala Tea",
+    "category": "Milk Tea",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A bold and flavorful milk tea infused with traditional Indian spices, offering a warming and aromatic experience.",
+    "ingredients": ["Black tea", "Milk", "Masala spices", "Sugar"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754360476/masala_tea_t6szgq.png"
+  },
+  {
+    "name": "Chocolate Coffee",
+    "category": "Filter Coffee",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A rich and indulgent blend of traditional filter coffee with creamy chocolate, perfect for satisfying your sweet tooth.",
+    "ingredients": ["Filter coffee beans", "Milk", "Sugar", "Cocoa powder"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359843/Chocolate_Coffee_ejtejc.jpg"
+  },
+  {
+    "name": "Turmeric Milk",
+    "category": "MCT Special",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A golden and nourishing drink made with turmeric and milk, known for its anti-inflammatory and healing properties.",
+    "ingredients": ["Milk", "Turmeric", "Sugar"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359869/Turmeric_Milk_ipzehn.jpg"
+  },
+  {
+    "name": "Pepper Milk",
+    "category": "MCT Special",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A spicy and warming milk drink with black pepper, traditionally consumed for its digestive benefits and bold flavor.",
+    "ingredients": ["Milk", "Black pepper", "Sugar"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359881/Pepper_Milk_xazmmo.jpg"
+  },
+  {
+    "name": "Honey Milk",
+    "category": "MCT Special",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A soothing and naturally sweet milk beverage infused with pure honey, perfect for a calming break.",
+    "ingredients": ["Milk", "Honey"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359831/Honey_Milk_wwsdxr.jpg"
+  },
+  {
+    "name": "Hot Badam",
+    "category": "MCT Special",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A warm and nutritious almond milk drink, spiced with saffron and cardamom, ideal for cozy evenings.",
+    "ingredients": ["Milk", "Almonds", "Sugar", "Cardamom", "Saffron"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359840/Hot_Badam_rlbczf.jpg"
+  },
+  {
+    "name": "Somarasam",
+    "category": "Summer Delights",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A traditional South Indian herbal summer drink made with natural ingredients to cool the body and refresh the mind.",
+    "ingredients": ["Herbal mix", "Water", "Jaggery", "Lemon juice"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359869/Somarasam_bl3pg1.jpg"
+  },
+  {
+    "name": "Lime Juice",
+    "category": "Summer Delights",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A zesty and revitalizing lime juice made fresh, perfect for quenching your thirst on a hot day.",
+    "ingredients": ["Lime", "Water", "Sugar", "Salt"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359838/Lime_Juice_tabxtg.jpg"
+  },
+  {
+    "name": "Butter Milk",
+    "category": "Summer Delights",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A tangy and cooling drink made with curd and spices, great for digestion and beating the heat.",
+    "ingredients": ["Curd", "Water", "Salt", "Coriander", "Cumin"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359824/Butter_Milk_tpdbn6.jpg"
+  },
+  {
+    "name": "Lassi",
+    "category": "Summer Delights",
+    "regular_price": 10,
+    "large_price": 20,
+    "description": "A creamy and sweet yogurt-based drink, flavored with cardamom and served chilled for a refreshing treat.",
+    "ingredients": ["Curd", "Sugar", "Cardamom", "Water"],
+    "image": "https://res.cloudinary.com/dge5zlivy/image/upload/v1754359853/Lassi_alzibw.jpg"
+  }
   ]
