@@ -2,6 +2,12 @@
   "redirects": [
     {
       "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "https://cassiao-sample.vercel.app"
+        }
+      ],
       "destination": "https://magiccassiao.in/$1",
       "permanent": true
     }
