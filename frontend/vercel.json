@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://yourdomain.com/$1",
+      "destination": "https://https://magiccassiao.in//$1",
       "permanent": true
     }
   ]
